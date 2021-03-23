@@ -1,0 +1,161 @@
+@import "_var",
+"_breakPoint";
+@mixin search_btn_pc() {
+    margin: 20px auto;
+    background: $cta;
+    border: 1px solid #DA7660;
+    box-shadow: inset 0px 2px 0px rgba(255, 255, 255, 0.74);
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: $white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    &::after {
+        content: '';
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        width: 20px;
+        height: 20px;
+        transform: translateY(-50%);
+        background: url(./images/contents/search__btn__icon.png) no-repeat 50% 50%;
+        background-size: cover;
+    }
+    &:hover {
+        top: 4px;
+    }
+}
+
+@mixin TopBtn() {
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    color: $white;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 5px 10px;
+    background: linear-gradient(90deg, $red 10.85%, $cta 10.86%, $cta 98%);
+    ;
+    border-radius: 5px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    &::after {
+        width: 15px;
+        height: 15px;
+        content: '';
+        background: url(./images/contents/arrow__link__wh.png) no-repeat 50% 50%;
+        background-size: contain;
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    @include tablet() {
+        background: $cta;
+        /* color/red */
+        height: auto;
+        padding: 10px;
+        border: 1px solid$cta;
+        box-shadow: 0px 3px 0px $red;
+        border-radius: 10px;
+        &::after {
+            width: 20px;
+            height: 20px;
+            background: url(./images/contents/arrow__link__wh__sp.png) no-repeat 50% 50%;
+            background-size: contain;
+        }
+    }
+}
+
+@mixin syousaiBtn() {
+    /* color/grey */
+    border: 1px solid $grey;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 40%;
+    font-weight: 700;
+    font-size: 12px;
+    margin: 0;
+    text-decoration: underline;
+    @include tablet() {
+        font-weight: 700;
+        justify-content: baseline;
+        padding: 15px;
+        width: 100%;
+    }
+}
+
+@mixin koushikiBtn() {
+    background: $cta;
+    border: 1px solid $red;
+    box-shadow: 0px 3px 0px $red;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 90%;
+    color: $white;
+    font-weight: 700;
+    margin: 0;
+    overflow: hidden;
+    font-size: 20px;
+    &:hover {
+        top: 4px;
+    }
+    &:before {
+        content: '';
+        width: 100px;
+        height: 200px;
+        background: $white;
+        transform: rotate(45deg);
+        opacity: 0.3;
+        position: absolute;
+        top:-55px;
+        animation: hikari 2s infinite;
+        filter: blur(2px);
+    }
+    &:after {
+        content: '';
+        width: 20px;
+        height: 20px;
+        right: 10px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: url(./images/contents/arrow__link__wh.png) no-repeat 50% 50%;
+        background-size: contain;
+    }
+    @keyframes hikari {
+        0% {
+            opacity: 0;
+            left: -100%;
+        }
+        50% {
+            opacity: 0.4;
+        }
+        100% {
+            left: 300%;
+        }
+    }
+    @include tablet() {
+        width: 100%;
+        font-size: 14px;
+        padding: 20px 15px;
+        margin-right: 5px;
+        margin: 0 auto 10px;
+        font-size: 16px;
+    }
+}

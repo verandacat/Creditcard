@@ -1,0 +1,20 @@
+.re__wrap {
+    margin: 30px auto;
+    width: 600px;
+}
+
+.re__wrap img {
+    width: 80%;
+}
+
+h2 {
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+}
+
+@media (max-width: 600px) {
+    .re__wrap {
+        width: 80%;
+    }
+}

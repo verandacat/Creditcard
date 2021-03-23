@@ -1,0 +1,45 @@
+@import "_var";
+// @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300;400;500;700;800;900&display=swap');
+$font: "Hiragino Kaku Gothic ProN",
+'Noto Sans JP',
+'Meirio',
+sans-serif;
+.red {
+    font-weight: 700;
+    color: $red;
+}
+
+.blue {
+    color: rgb(89, 110, 228);
+    font-weight: 700;
+}
+
+.bg-y {
+    background-image: linear-gradient(rgba(255, 255, 255, 0) 35%, $yg 55%);
+    font-weight: 700;
+}
+
+.mainColor {
+    color: $main1;
+    font-weight: 700;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.under {
+    text-decoration: underline;
+}
+
+.ss {
+    font-size: 11px;
+}
+
+.small {
+    font-size: 13px;
+}
+
+.big {
+    font-size: 1.2em;
+}

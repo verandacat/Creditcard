@@ -1,0 +1,110 @@
+@charset "utf-8";
+@import url("./boilerplate.css");
+@import url("./Untitled-1.css?template=defult");
+
+h1,h2,h3 {
+	margin-left: 10px;
+}
+
+/* 文字色 */
+.red {
+	color: #FF0000;		/* 赤 */
+}
+.blue {
+	color: #0000FF;		/* 青 */
+}
+.green {
+	color: #009900;		/* 緑 */
+}
+.yellow {
+	color: #FFFF00;		/* 黄 */
+}
+.black{
+	color: #000000;		/* 黒 */
+}
+.gray{
+	color: #999999;		/* グレー */
+}
+.purple{
+	color: #9900CC;		/* 紫 */
+}
+.orange{
+	color: #FF6633;		/* 橙 */
+}
+.pink{
+	color: #FF00FF;		/* ピンク */
+}
+.white{
+	color :#FFFFFF;		/* 白 */
+}
+
+/* 背景色 */
+.bg-red {
+	background-color: #ff0000;	/* 赤 */
+}
+.bg-blue {
+	background-color: #0000FF;	/* 青 */
+}
+.bg-green {
+	background-color: #009900;	/* 緑 */
+}
+.bg-yellow {
+	background-color: #FFFF00;	/* 黄 */
+}
+.bg-black {
+	background-color: #000000;	/* 黒 */
+}
+.bg-gray {
+	background-color: #999999;	/* グレー */
+}
+.bg-purple {
+	background-color: #9900CC;	/* 紫 */
+}
+.bg-orange {
+	background-color: #FF6633;	/* 橙 */
+}
+.bg-pink {
+	background-color: #FF00FF;	/* ピンク */
+}
+.bg-white {
+	background-color: #FFFFFF;	/*	白	*/
+}
+
+pre, blockquote, ins {
+    background: #f0f8ff;
+    border-radius: 5px;
+}
+
+blockquote {
+    background-image: url(images/quote-l.png), url(images/quote-r.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, bottom right;
+    margin: 0;
+    padding: 65px 30px;
+}
+blockquote, q {
+    quotes: none;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+a:hover img {
+   filter:alpha(opacity=50);
+   -moz-opacity: 0.5;
+   opacity: 0.5;
+}
+
+footer {
+	padding: 20px;
+	background: darkred;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer a{ 
+	color: white;
+	font-weight: bold;
+}

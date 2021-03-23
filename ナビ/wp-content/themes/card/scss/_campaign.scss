@@ -1,0 +1,321 @@
+#campaign__sub__items__box {
+    @include tablet {
+        background: #eee;
+    }
+    .campaign__sub__wrap {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+        grid-auto-rows: min-content;
+        margin-bottom: 40px;
+        @include tablet {
+            display: block;
+            margin: 0 10px;
+            margin-bottom: inherit;
+        }
+        .campaign__sub__item__wrap {
+            // display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: end;
+            color: $black;
+            // padding: 10px;
+            border: 1px solid #F2F2F2;
+            box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+            border-radius: 0px 5px 5px 0px;
+            .campaign__item__content__wrap {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                span.bg-y {
+                    background: none;
+                }
+            }
+            @include tablet {
+                border: 1px solid $main2;
+                border-radius: 5px;
+                box-shadow: none;
+                // padding: 10px;
+                margin: 10px 0;
+                display: block;
+                background: $white;
+                .campaign__descript {
+                    position: relative;
+                    border-radius: 5px;
+                    border: 2px solid $main1;
+                    width: 95%;
+                    margin: 8px auto 0;
+                    .campaign__title {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                        padding: 5px;
+                        background: $main1;
+                        span {
+                            display: inline-block;
+                            color: $white;
+                            font-weight: 700;
+                            font-size: 10px;
+                            width: 100%;
+                            text-align: center;
+                            &:nth-child(1) {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                    .campaign__text {
+                        padding: 5px;
+                        flex: 9;
+                        background: aliceblue;
+                        li {
+                            font-size: 13px;
+                            border-bottom: 1px solid rgba($red, 0.3);
+                            font-weight: 600;
+                            padding: 7px 5px;
+                            color: $black;
+                            line-height: 1.3;
+                            position: relative;
+                            margin-left: 12px;
+                            &:last-child {
+                                border-bottom: none;
+                            }
+                            &:before {
+                                content: '';
+                                position: absolute;
+                                background: url(./images/cam__icon.png);
+                                background-size: cover;
+                                background-position: center center;
+                                background-repeat: no-repeat;
+                                width: 10px;
+                                height: 10px;
+                                left: -12px;
+                                border-radius: 50%;
+                                padding: 2px;
+                                margin-right: 5px;
+                                box-shadow: 0 2px 3px rgba($black, 0.2);
+                            }
+                        }
+                    }
+                    .campaign__date {
+                        position: absolute;
+                        font-size: 10px;
+                        bottom: 0;
+                        right: 0;
+                        background: $white;
+                        border: 1px solid $rank1;
+                        border-radius: 4px;
+                    }
+                }
+                .campaign__item__title__wrap {
+                    border-bottom: 2px solid $main1;
+                    position: relative;
+                    width: 95%;
+                    margin-bottom: 10px;
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 0 auto 10px;
+                    padding: 10px;
+                    align-items: center;
+                    &::after {
+                        content: '';
+                        width: 100%;
+                        height: 2px;
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        background: $main2;
+                    }
+                    .title__wrap {
+                        font-weight: bold;
+                        font-size: 15px;
+                        padding: 10px 0;
+                        color: $black;
+                        box-shadow: none;
+                    }
+                    .star__wrap {
+                        // margin: 0 0 5px;
+                        display: flex;
+                        justify-content: end;
+                        align-items: center;
+                        flex-direction: column;
+                        @include starBoxSm();
+                        .star {
+                            img {
+                                width: 50px;
+                            }
+                        }
+                        .number {
+                            font-size: 15px!important;
+                            margin-top: 4px;
+                        }
+                    }
+                }
+                .campaign__item__content__wrap {
+                    display: flex;
+                    justify-content: center;
+                    margin: 20px 0;
+                    .campaign__item__left {
+                        // margin-right: 10px;
+                        a img {
+                            width: 57%;
+                            margin: 0 auto;
+                        }
+                    }
+                }
+                .campaign__card__points {
+                    margin: 10px auto;
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    width: 95%;
+                    grid-gap: 5px;
+                    ul.points__list {
+                        font-size: 12px;
+                        color: $black;
+                        // border-bottom: 1px solid $grey;
+                        display: flex;
+                        padding: 5px 0 2px;
+                        li.points__title {
+                            margin-right: 5px;
+                            font-weight: bold;
+                            position: relative;
+                            // padding-left: 10px;
+                            height: 24px;
+                            font-size: 11px;
+                            flex: 1.2;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background: aliceblue;
+                            border: 1px solid $main2;
+                            border-radius: 5px;
+                        }
+                        li.points__content {
+                            // color: $main1;
+                            word-break: break-all;
+                            font-weight: 700;
+                            flex: 1;
+                            display: flex;
+                            align-items: center;
+                            .brand__box {
+                                display: flex;
+                                align-items: center;
+                                img {
+                                    width: 22px;
+                                    margin-right: 2px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .campaign__btn__wrap {
+                    width: 95%;
+                    margin: 0 auto;
+                    padding: 20px 0;
+                    .syousai__btn {
+                        @include syousaiBtn();
+                        color: $black;
+                    }
+                    .koushiki__btn {
+                        @include koushikiBtn();
+                        margin-right: 10px;
+                    }
+                }
+            }
+            .img__wrap {
+                width: 100%;
+                flex: 5;
+                height: 140px;
+                &:hover {
+                    img {
+                        transform: scale(1.05);
+                    }
+                }
+                img {
+                    width: 65%;
+                    margin: 20px auto 10px;
+                    // transition: 0.5s;
+                }
+                @include tablet {
+                    height: auto;
+                }
+            }
+            .title__wrap {
+                // flex: 1;
+                padding: 5px;
+                font-size: 16px;
+                font-weight: 700;
+                text-align: center;
+                margin-bottom: 10px;
+                height: 54px;
+                border-top: 3px solid $main2;
+                border-bottom: 3px solid $main2;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                box-shadow: 0 2px 3px rgba($main2, 0.3);
+                @include tablet {
+                    text-align: left;
+                    border: none;
+                    margin-bottom: 0;
+                    background: none;
+                    display: block;
+                    height: auto;
+                    font-size: 14px;
+                }
+            }
+            .text__wrap {
+                font-size: 12px;
+                height: auto;
+                overflow: hidden;
+                position: relative;
+                border-radius: 10px;
+                height: 200px;
+                @include tablet {
+                    background: $white;
+                    height: auto;
+                    padding: 10px;
+                }
+                li {
+                    font-size: 12px;
+                    padding: 5px;
+                    font-weight: 500;
+                    color: $black;
+                    margin-left: 20px;
+                    position: relative;
+                    border-bottom: 1px solid #eee;
+                    &:last-child {
+                        border-bottom: none;
+                    }
+                    &:before {
+                        content: '';
+                        position: absolute;
+                        background: url(./images/cam__icon.png);
+                        background-size: cover;
+                        background-position: center center;
+                        background-repeat: no-repeat;
+                        width: 10px;
+                        height: 10px;
+                        left: -12px;
+                        border-radius: 50%;
+                        padding: 2px;
+                        margin-right: 5px;
+                        box-shadow: 0 2px 3px rgba($black, 0.2);
+                    }
+                }
+            }
+            .link__wrap {
+                @include linkText();
+                font-size: 12px;
+                margin-top: 10px;
+                border-top: 0;
+                background: $lgrey;
+                a {
+                    // color: $main1!important;
+                    margin-right: 15px;
+                }
+            }
+        }
+    }
+}
