@@ -695,11 +695,11 @@
             background: $white;
             padding: 5px;
             border-radius: 5px;
+            @include desktop {}
             @include starBoxSm();
             .number {
                 font-size: 18px!important;
                 margin-right: 4px;
-
             }
         }
         span.review__btn {
@@ -730,6 +730,9 @@
         border-left: 1px solid $lgrey;
         cursor: pointer;
         transition: color 0.3s;
+        @include desktop {
+            width: 68px;
+        }
         @include tablet {
             padding: 4px 16px 4px 18px;
         }
@@ -759,7 +762,6 @@
         height: 100%;
         left: 0.4rem;
         transform: translateY(-20%);
-        
     }
     .fa-sort-down {
         top: 40%;
@@ -767,8 +769,7 @@
         left: 0.4rem;
         transform: translateY(-30%);
         @include tablet {
-        transform: translateY(-20%);
-            
+            transform: translateY(-20%);
         }
     }
     .review__box {
@@ -798,7 +799,6 @@
             padding: 8px 14px;
             &:nth-child(1) {
                 border: none;
-                
             }
             @include tablet {
                 margin: 4px 0;
@@ -852,7 +852,6 @@
             }
         }
     }
-
     .item__right {
         color: $black;
         flex: 7;

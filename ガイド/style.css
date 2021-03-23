@@ -356,6 +356,8 @@ input[type=submit] { -webkit-appearance: none; }
 
 #ranking__sub__items__box .review__link { margin-left: 4px; padding: 4px 7px 4px 18px; color: #464646; text-decoration: underline; font-weight: bold; font-size: 14px; position: relative; border-left: 1px solid #F2F2F2; cursor: pointer; -webkit-transition: color 0.3s; transition: color 0.3s; }
 
+@media (min-width: 1030px) { #ranking__sub__items__box .review__link { width: 68px; } }
+
 @media (max-width: 1029px) { #ranking__sub__items__box .review__link { padding: 4px 16px 4px 18px; } }
 
 #ranking__sub__items__box .review__link:hover { color: #20B2AA; }
