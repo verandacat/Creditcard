@@ -563,7 +563,9 @@ input[type=submit] { -webkit-appearance: none; }
   #ranking__sub__items__box .star__wrap .star { padding: 5px; padding: 2px; margin-right: 5px; background: #F2F2F2; border-radius: 3px; -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1); box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1); }
   #ranking__sub__items__box .star__wrap .number { color: #FF6363; font-weight: 600; font-size: 14px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; } }
 
-@media (max-width: 1029px) and (max-width: 1029px) { #ranking__sub__items__box .star__wrap { border-radius: 5px; border-bottom: 2px solid #eee; text-align: right; padding-right: 10px; padding: 3px; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; } }
+@media (max-width: 1029px) and (max-width: 1029px) { #ranking__sub__items__box .star__wrap { border-radius: 5px; border-bottom: 2px solid #eee; padding-right: 10px; padding: 3px; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; } }
+
+@media (max-width: 1029px) and (max-width: 757px) { #ranking__sub__items__box .star__wrap { -webkit-box-pack: center !important; -ms-flex-pack: center !important; justify-content: center !important; } }
 
 @media (max-width: 1029px) { #ranking__sub__items__box .star__wrap .star { display: inline-block; } }
 
@@ -571,7 +573,7 @@ input[type=submit] { -webkit-appearance: none; }
 
 @media (max-width: 1029px) { #ranking__sub__items__box .star__wrap .number { font-size: 25px; } }
 
-@media (max-width: 1029px) and (max-width: 1029px) { #ranking__sub__items__box .star__wrap .number { font-size: 18px; color: #FF6363; } }
+@media (max-width: 1029px) and (max-width: 1029px) { #ranking__sub__items__box .star__wrap .number { font-size: 16px; color: #FF6363; } }
 
 @media (max-width: 1029px) { #ranking__sub__items__box .star__wrap span.review__btn { display: inline-block; margin-left: 20px; font-size: 12px; font-weight: 500; width: auto; padding: 6px 5px 5px; color: #FFFFFF; cursor: pointer; position: relative; z-index: 3; }
   #ranking__sub__items__box .star__wrap span.review__btn:after { content: ''; width: 100%; height: 100%; background: url(./images/review__bg.png) no-repeat 50% 60%; background-size: 100%; position: absolute; top: 3px; left: 0; z-index: -1; }
