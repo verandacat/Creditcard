@@ -45,6 +45,21 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="<?php bloginfo('template_url'); ?>/images/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+    <?php if(is_page('mitsui-numle-l')) : ?>
+        <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/numberless.css?<?php echo time(); ?>" />
+    <!-- Global site tag (gtag.js) - Google Ads: 453046627 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-453046627"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-453046627');
+    </script>
+    <?php endif; ?>
 </head>
 
 <body>
