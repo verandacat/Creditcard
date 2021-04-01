@@ -8,14 +8,8 @@
 <body>
 
 <?php include 'Tags/body-tag.php'; ?>
-
-    <script>
-    let link = 'https://re-roots.net/link.php?i=pgl0d7bfb3kh&m=mglyziibitpf';
-    let delay = 1000;     // 遷移までの待ち時間（ミリ秒）
-    setTimeout(function () {
-        location.href = link+'&pbid='+localStorage.getItem('reroots_clid')
-    }, delay);
-    </script>
+ 
+    <meta http-equiv="refresh" content="1; URL=https://tracker.performancefirst.jp/ad/p/r?_cid=qZT7wRc%2Bvg4gj9LYlBmsxBeeq0JzM7%2FtQZa%2Fm%2B05wvE%3D">
 
 </body>
 
