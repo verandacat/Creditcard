@@ -1193,3 +1193,19 @@ aside#sidebar__box h3 {
     padding: 5px;
     margin-right: 5px;
 }
+
+
+/* アニメーション */
+
+
+/* blink */
+
+.blink {
+    animation: blink 0.5s infinite alternate;
+}
+
+@keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}

@@ -25,6 +25,23 @@ Template Name: 三井住友ナンバーレス5
 
     gtag('config', 'AW-453046627');
     </script>
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '476139670446219');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=476139670446219&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
 </head>
 
 <body>
@@ -32,20 +49,25 @@ Template Name: 三井住友ナンバーレス5
         <div id="primary" class="content-area">
             <main id="main" class="site-main">
 
-                <h2 class="mb10">
+                <h2 class="mb20">
                     <span class="bg-y bold">今なら入会＆利用で最大<span class="red">11,000円</span>相当プレゼント中<br>
                         <span class="bold bg-y red">セブン-イレブン、ローソン、マクドナルドで５％還元される</span><br>
                         <span class="bold"><span class="red">永年無料</span>の<span class="red">三井住友カードのナンバーレス（NL）</span>がすごい</span>
                 </h2>
-                <p class="right"><span class="lgrey sm">PR：株式会社スタークラフト</span></p>
-                
+
+                <div class="sub__title">
+                    <p class="red bold">＼4月30日まで限定／<br>
+                    <span class="f20 blink bg-y">11000円相当プレゼント中</span>
+                    </p>
+                </div>
+
                 <p>
                     <img src="<?php bloginfo('template_url'); ?>/images/number/001.jpg" 　alt="">
                     <!-- <img src="<?php bloginfo('template_url'); ?>/images/number/002.jpg" alt=""> -->
                 </p>
 
                 <p>
-                    <span class="red bold">２月１日に遂に解禁!!</span><br>
+                    <span class="red bold">遂に解禁された最新クレカ!!</span><br>
                     <span class="bold">「三井住友カード（NL）」</span><br>って知ってますか？
                 </p>
 
@@ -54,7 +76,7 @@ Template Name: 三井住友ナンバーレス5
                             class="f20">永年無料</span></span>なのに</span>
                     <br>
                     <span class="center mb0" style="display:block">
-                        <span class="bg-y bold">最大<span class="f20 red">11,000円</span>が<span
+                        <span class="bg-y bold">最大<span class="f20 red">11,000円</span><span
                                 class="f20">相当プレゼント</span></span>
                     </span>
                     される<span class="bold">新クレカ！</span>
@@ -100,8 +122,8 @@ Template Name: 三井住友ナンバーレス5
                 </p>
 
                 <h2 class="mb20">
-                    <span class="f20 bold">
-                        今なら入会＆利用で<br>
+                    <span class="f20 bold red bg-y blink">
+                    【4月30日まで限定】<br>
                     </span>
                     <span class="red bold bg-y">最大<span class="f20">11,000円</span>相当プレゼント</span>
                 </h2>
@@ -469,11 +491,12 @@ Template Name: 三井住友ナンバーレス5
                 <p>さすがにこの破格の条件は
                 </p>
 
-                <p>サービスが始まったばかりの<span class="bold blue f20">今だけの可能性が高い</span>です！</p>
+                <p class="mb5">サービスが始まったばかりの<span class="bold blue f20">今だけの可能性が高い</span>です！</p>
+                <small style="display: block" class="bold red mb20">注：11,000円相当プレゼントは4/30日で終了です</small>
 
                 <p>持っておいて絶対に損することはないので</p>
 
-                <p>悩んでるんだったら<br>今の内に申し込まなきゃもったいない！
+                <p>悩んでるんだったら<br>キャンペーン終了前に急いで申し込まなきゃもったいない！
                 </p>
 
                 <p>
@@ -491,7 +514,7 @@ Template Name: 三井住友ナンバーレス5
     </div>
 
 
-   <?php get_footer(); ?>
+    <?php get_footer(); ?>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="<?php bloginfo('template_url'); ?>/js/storage.js"></script>
     <script type="text/javascript" charset="utf-8" src="https://kenga.tech/pop-ups-undxjkix.js"></script>
@@ -510,16 +533,6 @@ ytag({
     ]
   }
 });
-</script>
-<script>
-  (function (window, document) {
-    var script = document.createElement("script");
-    script.async = true;
-    script.src = "https://uz-analysis.akamaized.net/analysis/uz.js?ord="+(Math.floor(Math.random()*10e12));
-    window.uzAnalysis = {"aid": 4258};
-    var firstScriptElement = document.getElementsByTagName("script")[0];
-    firstScriptElement.parentNode.insertBefore(script, firstScriptElement);
-  })(window, document);
 </script>
 </body>
 
