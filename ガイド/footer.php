@@ -164,121 +164,150 @@ var swiperRankTop = new Swiper('.swiper-container-ranktop', {
 
 <?php if(!is_mobile()) : ?>
 <script>
-    $('.search__area__top input[type="checkbox"]').change (function(){
+$('.search__area__top input[type="checkbox"]').change(function() {
     var $this = $(this);
     var $parentBox = $this.closest('div');
     var $parentLabel = $this.next();
 
-    if($this.is(':checked') ) {
-        $parentBox.css('backgroundColor','aliceblue');
-    } 
-    else {
+    if ($this.is(':checked')) {
+        $parentBox.css('backgroundColor', 'aliceblue');
+    } else {
         $parentBox.css('backgroundColor', '#fff');
     }
-    });
-   
+});
 </script>
 
 <?php else : ?>
 <script>
+$('.search__area__top select').change(function() {
+    var $this = $(this);
+    var $parentBox = $this.closest('label');
+    if ($this.val() == '') {
+        $parentBox.css('backgroundColor', '#fff');
+    } else {
+        $parentBox.css('backgroundColor', 'aliceblue');
+    }
 
-    $('.search__area__top select').change(function() {
-        var $this = $(this);
-        var $parentBox = $this.closest('label');
-        if($this.val() == '') {
-            $parentBox.css('backgroundColor','#fff');
-        }else {
-            $parentBox.css('backgroundColor','aliceblue');
-        }
-        
-    });
+});
 
-    $('.search__area__bottom input[type="checkbox"]').change(function() {
-        var $this = $(this);
-        var $parentBox = $this.closest('div');
-        if($this.is(':checked') ) {
-            $parentBox.css('backgroundColor','aliceblue');
-        } 
-        else {
-            $parentBox.css('backgroundColor', '#fff');
-        }
-    });
-
+$('.search__area__bottom input[type="checkbox"]').change(function() {
+    var $this = $(this);
+    var $parentBox = $this.closest('div');
+    if ($this.is(':checked')) {
+        $parentBox.css('backgroundColor', 'aliceblue');
+    } else {
+        $parentBox.css('backgroundColor', '#fff');
+    }
+});
 </script>
 <?php endif; ?>
 
 <script>
-
-$(function () {
+$(function() {
     function device() {
-    const windowWidth = $(window).width();
-    if (windowWidth < 1030) {
-        $('.pc').remove();
-        $('.sp').show();
-    } else {
-        $('.sp').remove();
-        $('.pc').show();
+        const windowWidth = $(window).width();
+        if (windowWidth < 1030) {
+            $('.pc').remove();
+            $('.sp').show();
+        } else {
+            $('.sp').remove();
+            $('.pc').show();
+        }
+        console.log('resize');
     }
-    console.log('resize');
-}
 
-$( window ).resize(device());
+    $(window).resize(device());
 })
-
 </script>
 
 <?php if(is_page('rankingall') ) : ?>
+<script type="text/javascript" charset="utf-8" src="https://kenga.tech/pop-ups-hzepcoie.js"></script>
 
-    <script type="text/javascript" charset="utf-8" src="https://kenga.tech/pop-ups-hzepcoie.js"></script>
+<?php elseif(is_page('rankingprice')) : ?>
+<script type="text/javascript" charset="utf-8" src="https://kenga.tech/pop-ups-jrfrwzkc.js"></script>
 
+<?php elseif(is_page('rankingpoint')) : ?>
+<script type="text/javascript" charset="utf-8" src="https://kenga.tech/pop-ups-dczjxpmn.js"></script>
+
+<?php elseif(is_page('rankingbusiness')) : ?>
+<script type="text/javascript" charset="utf-8" src="https://kenga.tech/pop-ups-hxttware.js"></script>
+
+<?php elseif(is_page('rankingetc')) : ?>
+<script type="text/javascript" charset="utf-8" src="https://kenga.tech/pop-ups-qrwlweet.js"></script>
+
+<?php elseif(is_page('rankingspeed')) : ?>
+<script type="text/javascript" charset="utf-8" src="https://kenga.tech/pop-ups-gofqbefk.js"></script>
+
+<?php elseif(is_page('rankinglady')) : ?>
+<script type="text/javascript" charset="utf-8" src="https://kenga.tech/pop-ups-ycdrspff.js"></script>
+
+<?php elseif(is_page('rankingstudent')) : ?>
+<script type="text/javascript" charset="utf-8" src="https://kenga.tech/pop-ups-sirojcwb.js"></script>
+
+<?php elseif(is_page('rankingvisa')) : ?>
+<script type="text/javascript" charset="utf-8" src="https://kenga.tech/pop-ups-bynrsimr.js"></script>
+
+<?php elseif(is_page('rankingmaster')) : ?>
+<script type="text/javascript" charset="utf-8" src="https://kenga.tech/pop-ups-xtxlyhfp.js"></script>
+
+<?php elseif(is_page('rankingjcb')) : ?>
+<script type="text/javascript" charset="utf-8" src="https://kenga.tech/pop-ups-ycnzcoup.js"></script>
+
+<?php elseif(is_page('rankinggold')) : ?>
+<script type="text/javascript" charset="utf-8" src="https://kenga.tech/pop-ups-yxcpidgw.js"></script>
+
+<?php elseif(is_page('rankingmil')) : ?>
+<script type="text/javascript" charset="utf-8" src="https://kenga.tech/pop-ups-dcmjujnx.js"></script>
+
+<?php elseif(is_page('rankingstatus')) : ?>
+<script type="text/javascript" charset="utf-8" src="https://kenga.tech/pop-ups-hicdetwj.js"></script>
 
 
 <?php elseif(is_search()) : ?>
-    
-    <script>
-        // search-sort
-        const sortBtn = document.querySelector('.sort__choice__wrap');
-        const openSortBtn = document.querySelector('.sort__open__list');
 
-        function sortMenuOpen() {
-            openSortBtn.classList.toggle('open');
-        }
+<script>
+// search-sort
+const sortBtn = document.querySelector('.sort__choice__wrap');
+const openSortBtn = document.querySelector('.sort__open__list');
 
-        sortBtn.addEventListener('click', sortMenuOpen);
-    </script>
+function sortMenuOpen() {
+    openSortBtn.classList.toggle('open');
+}
+
+sortBtn.addEventListener('click', sortMenuOpen);
+</script>
 
 
 <?php endif; ?>
 
 <script>
-
-    <?php if(is_mobile()) : ?>
-
-
-    $('.js__review__link').click(function() {
-        $(this).parent().parent().children('.js__review').slideToggle();
-        $(this).toggleClass('open');
-        if ($(this).hasClass('open')) {
-            $(this).html('<i class="fas fa-sort-up"></i>口コミ');
-        } else {
-            $(this).html('<i class="fas fa-sort-down"></i>口コミ');
-        }
-    });
+<?php if(is_mobile()) : ?>
 
 
-    <?php else : ?>
+$('.js__review__link').click(function() {
+    $(this).parent().parent().children('.js__review').slideToggle();
+    $(this).toggleClass('open');
+    if ($(this).hasClass('open')) {
+        $(this).html('<i class="fas fa-sort-up"></i>口コミ');
+    } else {
+        $(this).html('<i class="fas fa-sort-down"></i>口コミ');
+    }
+});
 
-    $('.js__review__link').click(function() {
-        $(this).parent().parent().parent().parent().children('.js__review').slideToggle();
-        $(this).toggleClass('open');
-        if ($(this).hasClass('open')) {
-            $(this).html('<i class="fas fa-sort-up"></i>口コミ');
-        } else {
-            $(this).html('<i class="fas fa-sort-down"></i>口コミ');
-        }
-    });
 
-    <?php endif; ?>
+<?php else : ?>
+
+$('.js__review__link').click(function() {
+    $(this).parent().parent().parent().parent().children('.js__review').slideToggle();
+    $(this).toggleClass('open');
+    if ($(this).hasClass('open')) {
+        $(this).html('<i class="fas fa-sort-up"></i>口コミ');
+    } else {
+        $(this).html('<i class="fas fa-sort-down"></i>口コミ');
+    }
+});
+
+<?php endif; ?>
 </script>
 </body>
 

@@ -299,40 +299,77 @@ $(function() {
 </script>
 
 <?php if(is_page('rankingall')) : ?>
-    <script type="text/javascript" charset="utf-8" src="https://kenga.tech/pop-ups-ilkzidfl.js"></script>
+<script type="text/javascript" charset="utf-8" src="https://kenga.tech/pop-ups-ilkzidfl.js"></script>
 
+<?php elseif(is_page('rankingprice')) : ?>
+<script type="text/javascript" charset="utf-8" src="https://kenga.tech/pop-ups-hbkaakyh.js"></script>
+
+<?php elseif(is_page('rankingpoint')) : ?>
+<script type="text/javascript" charset="utf-8" src="https://kenga.tech/pop-ups-qpsbcdeb.js"></script>
+
+<?php elseif(is_page('rankingbusiness')) : ?>
+<script type="text/javascript" charset="utf-8" src="https://kenga.tech/pop-ups-smcglpub.js"></script>
+
+<?php elseif(is_page('rankingetc')) : ?>
+<script type="text/javascript" charset="utf-8" src="https://kenga.tech/pop-ups-usqlpmqd.js"></script>
+
+<?php elseif(is_page('rankingspeed')) : ?>
+<script type="text/javascript" charset="utf-8" src="https://kenga.tech/pop-ups-prolisci.js"></script>
+
+<?php elseif(is_page('rankinglady')) : ?>
+<script type="text/javascript" charset="utf-8" src="https://kenga.tech/pop-ups-iqruwcht.js"></script>
+
+<?php elseif(is_page('rankingstudent')) : ?>
+<script type="text/javascript" charset="utf-8" src="https://kenga.tech/pop-ups-xeyabtnc.js"></script>
+
+<?php elseif(is_page('rankingvisa')) : ?>
+<script type="text/javascript" charset="utf-8" src="https://kenga.tech/pop-ups-lesphmpq.js"></script>
+
+<?php elseif(is_page('rankingmaster')) : ?>
+<script type="text/javascript" charset="utf-8" src="https://kenga.tech/pop-ups-gzhnanhm.js"></script>
+
+<?php elseif(is_page('rankingjcb')) : ?>
+<script type="text/javascript" charset="utf-8" src="https://kenga.tech/pop-ups-avdprhzh.js"></script>
+
+<?php elseif(is_page('rankinggold')) : ?>
+<script type="text/javascript" charset="utf-8" src="https://kenga.tech/pop-ups-qvswddsx.js"></script>
+
+<?php elseif(is_page('rankingmil')) : ?>
+<script type="text/javascript" charset="utf-8" src="https://kenga.tech/pop-ups-wxxvdvyj.js"></script>
+
+<?php elseif(is_page('rankingstatus')) : ?>
+<script type="text/javascript" charset="utf-8" src="https://kenga.tech/pop-ups-rupuoocj.js"></script>
 
 <?php endif; ?>
 
 <script>
-    <?php if(is_mobile()) : ?>
+<?php if(is_mobile()) : ?>
 
 
-    $('.js__review__link').click(function() {
-        $(this).parent().parent().children('.js__review').slideToggle();
-        $(this).toggleClass('open');
-        if ($(this).hasClass('open')) {
-            $(this).html('<i class="fas fa-sort-up"></i>口コミ');
-        } else {
-            $(this).html('<i class="fas fa-sort-down"></i>口コミ');
-        }
-    });
+$('.js__review__link').click(function() {
+    $(this).parent().parent().children('.js__review').slideToggle();
+    $(this).toggleClass('open');
+    if ($(this).hasClass('open')) {
+        $(this).html('<i class="fas fa-sort-up"></i>口コミ');
+    } else {
+        $(this).html('<i class="fas fa-sort-down"></i>口コミ');
+    }
+});
 
 
-    <?php else : ?>
+<?php else : ?>
 
-    $('.js__review__link').click(function() {
-        $(this).parent().parent().parent().parent().children('.js__review').slideToggle();
-        $(this).toggleClass('open');
-        if ($(this).hasClass('open')) {
-            $(this).html('<i class="fas fa-sort-up"></i>口コミ');
-        } else {
-            $(this).html('<i class="fas fa-sort-down"></i>口コミ');
-        }
-    });
+$('.js__review__link').click(function() {
+    $(this).parent().parent().parent().parent().children('.js__review').slideToggle();
+    $(this).toggleClass('open');
+    if ($(this).hasClass('open')) {
+        $(this).html('<i class="fas fa-sort-up"></i>口コミ');
+    } else {
+        $(this).html('<i class="fas fa-sort-down"></i>口コミ');
+    }
+});
 
-    <?php endif; ?>
-
+<?php endif; ?>
 </script>
 </body>
 
