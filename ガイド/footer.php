@@ -229,8 +229,9 @@ $( window ).resize(device());
 
 <?php if(is_page('rankingall') ) : ?>
 
-    <script type="text/javascript" charset="utf-8" src="https://https://www.chatwork.com/#!rid207909383-1403689784798388224
-kenga.tech/pop-ups-hzepcoie.js"></script>
+    <script type="text/javascript" charset="utf-8" src="https://kenga.tech/pop-ups-hzepcoie.js"></script>
+
+
 
 <?php elseif(is_search()) : ?>
     
