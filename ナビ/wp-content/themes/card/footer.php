@@ -299,7 +299,9 @@ $(function() {
 </script>
 
 <?php if(is_page('rankingall')) : ?>
-<script type="text/javascript" charset="utf-8" src="https://kenga.tech/pop-ups-ilkzidfl.js"></script>
+    <script type="text/javascript" charset="utf-8" src="https://kenga.tech/pop-ups-ilkzidfl.js"></script>
+
+
 <?php endif; ?>
 
 <script>

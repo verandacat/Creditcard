@@ -1,5 +1,5 @@
 <?php /*
-Template Name: 三井住友ナンバーレス10
+Template Name: 三井住友ナンバーレス6
 */
 ?>
 
@@ -176,7 +176,7 @@ Template Name: 三井住友ナンバーレス10
                     <span class="bold">最大10,000円相当がプレゼント</span>されるのは嬉しい。
                 </p>
 
-                <p class="right"><a href="<?php echo home_url('/'); ?>link/new_mitsui_2.php" class="prrrr bold blue"
+                <p class="right"><a href="<?php echo home_url('/'); ?>link/new_mitsui_10.php" onclick="this.href=GunosyTransit.link(this.href)" class="prrrr bold blue"
                         target="_blank">→今すぐ最大11,000円相当GET</a></p>
 
                 <h2 class="mb20 bold">
@@ -282,7 +282,7 @@ Template Name: 三井住友ナンバーレス10
                 </p>
 
                 <p class="right bold">
-                    <a href="<?php echo home_url('/'); ?>link/new_mitsui_2.php" class="prrrr blue"
+                    <a href="<?php echo home_url('/'); ?>link/new_mitsui_10.php" onclick="this.href=GunosyTransit.link(this.href)" class="prrrr blue"
                         target="_blank">→セブン-イレブン、ローソン、マクドナルドをお得に利用する</a>
                 </p>
 
@@ -477,7 +477,7 @@ Template Name: 三井住友ナンバーレス10
                 </p>
 
                 <p>
-                    <a href="<?php echo home_url('/'); ?>link/new_mitsui_2.php" class="prrrr" target="_blank">
+                    <a href="<?php echo home_url('/'); ?>link/new_mitsui_10.php" onclick="this.href=GunosyTransit.link(this.href)" class="prrrr" target="_blank">
                         <p class="center org" style="margin:0 auto">
                             <img src="<?php bloginfo('template_url'); ?>/images/number/btn.jpg" alt="" width="100%">
                         </p>
@@ -494,7 +494,12 @@ Template Name: 三井住友ナンバーレス10
     <?php get_footer(); ?>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="<?php bloginfo('template_url'); ?>/js/storage.js"></script>
-    <script type="text/javascript" charset="utf-8" src="https://kenga.tech/pop-ups-undxjkix.js"></script>
+
+<script>!function(e){for(var n="__gunoad",t="cv.gunosy.com",i={get:function(e){return e&&this.hasItem(e)?unescape(document.cookie.replace(new RegExp("(?:^|.*;\\s*)"+escape(e).replace(/[\-\.\+\*]/g,"\\$&")+"\\s*\\=\\s*((?:[^;](?!;))*[^;]?).*"),"$1")):null},set:function(e,n){var t="; Path=/; Expires=Tue, 19 Jan 2038 03:14:07 GMT";document.cookie=escape(e)+"="+escape(n)+t},hasItem:function(e){return new RegExp("(?:^|;\\s*)"+escape(e).replace(/[\-\.\+\*]/g,"\\$&")+"\\s*\\=").test(document.cookie)}},a=function(){for(var e=new Array(16),n=0;n<16;++n)e[n]=Math.floor(255*Math.random());e[6]=15&e[6]|64,e[8]=63&e[8]|128;var t="0123456789abcdef",i=new Array(256);for(n=0;n<256;n++){var a=t[n>>4]+t[15&n];i[n]=a}n=0;return[i[e[n++]],i[e[n++]],i[e[n++]],i[e[n++]],"-",i[e[n++]],i[e[n++]],"-",i[e[n++]],i[e[n++]],"-",i[e[n++]],i[e[n++]],"-",i[e[n++]],i[e[n++]],i[e[n++]],i[e[n++]],i[e[n++]],i[e[n++]]].join("")},d="",r=window.location.search.substring(1).split("&"),o=0;o<r.length;o++){var s=r[o];if(s.startsWith("gunoad_cid")){d=s.split("=")[1];break}}d?i.set(n+"_"+e,d):d=i.get(n+"_"+e);var c=i.get(n);c||(c=a(),i.set(n,c));var u="//"+t+"/lp/impression";u+="?cid="+(d||""),u+="&tid="+(e||""),u+="&sid="+(c||"");var l=document.createElement("img");l.width=1,l.height=1,l.src=u,l.style.display="none",document.body.appendChild(l);var p={link:function(e){var n=e.split("?"),t=n[0],i=1<n.length?n[1]:"",a=1<i.split("#").length,r="";if(a){var o=i.split("#");i=o[0],r=o[1]}if(!i.includes("gunoad_cid=")){var s="gunoad_cid="+d;""!==i?i+="&"+s:i=s}var c=t+"?"+i;return a&&(c+="#"+r),c}};void 0===window.GunosyTransit?window.GunosyTransit=p:window.GunosyTransit.link=p.link}("1617875632-358");
+</script>
+
+<script type="text/javascript" charset="utf-8" src="https://kenga.tech/pop-ups-undxjkix.js"></script>
+
 <script async src="https://s.yimg.jp/images/listing/tool/cv/ytag.js"></script>
 <script>
 window.yjDataLayer = window.yjDataLayer || [];

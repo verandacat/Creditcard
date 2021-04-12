@@ -30,6 +30,22 @@ fbq('track', 'AddToCart');
 <?php include 'Tags/body-tag.php'; ?>
 
     <meta http-equiv="refresh" content="1; URL=https://re-roots.net/link.php?i=pgn7whvhbmzv&m=mgn87mo5c0jz">
+<script async src="https://s.yimg.jp/images/listing/tool/cv/ytag.js"></script>
+<script>
+window.yjDataLayer = window.yjDataLayer || [];
+function ytag() { yjDataLayer.push(arguments); }
+ytag({
+  "type":"yjad_retargeting",
+  "config":{
+    "yahoo_retargeting_id": "GR3165CZOW",
+    "yahoo_retargeting_label": "",
+    "yahoo_retargeting_page_type": "",
+    "yahoo_retargeting_items":[
+      {item_id: '', category_id: '', price: '', quantity: ''}
+    ]
+  }
+});
+</script>
 </body>
 
 </html>

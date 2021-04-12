@@ -25,28 +25,24 @@
     
 
     <script>
-    let link = 'https://re-roots.net/link.php?i=pgn7whvhbmzv&m=mgn87nstodbg';
+    let link = 'https://re-roots.net/link.php?i=pgn7whvhbmzv&m=mgo83ijxf1j2';
     let delay = 1000;     // 遷移までの待ち時間（ミリ秒）
     setTimeout(function () {
         location.href = link+'&pbid='+localStorage.getItem('reroots_clid')
     }, delay);
     </script>
-<script async src="https://s.yimg.jp/images/listing/tool/cv/ytag.js"></script>
-<script>
-window.yjDataLayer = window.yjDataLayer || [];
-function ytag() { yjDataLayer.push(arguments); }
-ytag({
-  "type":"yjad_retargeting",
-  "config":{
-    "yahoo_retargeting_id": "GR3165CZOW",
-    "yahoo_retargeting_label": "",
-    "yahoo_retargeting_page_type": "",
-    "yahoo_retargeting_items":[
-      {item_id: '', category_id: '', price: '', quantity: ''}
-    ]
-  }
-});
-</script>
+    <script type="text/javascript">
+    (function (window, document) {
+        var script = document.createElement("script");
+        script.defer = true;
+        script.dataset.cvPointId = 6474;
+        script.dataset.fired = "false";
+        script.className = "uzo-cv-tag"
+        script.src = "https://speee-ad.akamaized.net/cv/cv.bundle.js";
+        var firstScriptElement = document.getElementsByTagName("script")[0];
+        firstScriptElement.parentNode.insertBefore(script, firstScriptElement);
+    })(window, document);
+    </script>
 </body>
 
 </html>

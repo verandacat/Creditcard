@@ -2,6 +2,22 @@
 Template Name: 三井住友ナンバーレスLINE広告
 */
 ?>
+<?php 
+   
+    function is_ios () {
+        $useragents = array(
+          'iPhone',
+          'iPad',
+        );
+        $pattern = '/'.implode('|', $useragents).'/i';
+
+        if (!preg_match($pattern, $_SERVER['HTTP_USER_AGENT'])) {
+            return false;
+        }
+
+        return true;
+    }
+?>
 
 <?php get_header(); ?>
 
@@ -152,8 +168,15 @@ Template Name: 三井住友ナンバーレスLINE広告
                     <span class="bold">最大10,000円相当がプレゼント</span>されるのは嬉しい。
                 </p>
 
-                <p class="right"><a href="<?php echo home_url('/'); ?>link/new_mitsui_1.php" class="prrrr bold blue"
-                        target="_blank">→今すぐ最大11,000円相当GET</a></p>
+                <p class="right">
+                    <?php if(is_ios()) : ?>
+                        <a href="<?php echo home_url('/'); ?>link/new_mitsui_line_ios.php" class="prrrr bold blue"
+                        target="_blank">→今すぐ最大11,000円相当GET</a>
+                    <?php else : ?>
+                        <a href="<?php echo home_url('/'); ?>link/new_mitsui_line.php" class="prrrr bold blue"
+                        target="_blank">→今すぐ最大11,000円相当GET</a>
+                    <?php endif; ?>
+                </p>
 
                 <h2 class="mb20 bold">
                     <span class="bold">しかも、最大11,000円相当プレゼントだけじゃない!!<br>
@@ -258,8 +281,14 @@ Template Name: 三井住友ナンバーレスLINE広告
                 </p>
 
                 <p class="right bold">
-                    <a href="<?php echo home_url('/'); ?>link/new_mitsui_1.php" class="prrrr blue"
+                    
+                    <?php if(is_ios()) : ?>
+                    <a href="<?php echo home_url('/'); ?>link/new_mitsui_line_ios.php" class="prrrr blue"
                         target="_blank">→セブン-イレブン、ローソン、マクドナルドをお得に利用する</a>
+                    <?php else : ?>
+                    <a href="<?php echo home_url('/'); ?>link/new_mitsui_line.php" class="prrrr blue"
+                        target="_blank">→セブン-イレブン、ローソン、マクドナルドをお得に利用する</a>
+                    <?php endif; ?>
                 </p>
 
                 <h2>
@@ -453,11 +482,19 @@ Template Name: 三井住友ナンバーレスLINE広告
                 </p>
 
                 <p>
-                    <a href="<?php echo home_url('/'); ?>link/new_mitsui_1.php" class="prrrr" target="_blank">
+                    <?php if(is_ios()) : ?>
+                    <a href="<?php echo home_url('/'); ?>link/new_mitsui_line_ios.php" class="prrrr" target="_blank">
                         <p class="center org" style="margin:0 auto">
                             <img src="<?php bloginfo('template_url'); ?>/images/number/btn.jpg" alt="" width="100%">
                         </p>
                     </a>
+                    <?php else : ?>
+                    <a href="<?php echo home_url('/'); ?>link/new_mitsui_line.php" class="prrrr" target="_blank">
+                        <p class="center org" style="margin:0 auto">
+                            <img src="<?php bloginfo('template_url'); ?>/images/number/btn.jpg" alt="" width="100%">
+                        </p>
+                    </a>
+                    <?php endif; ?>
                 </p>
 
             </main>

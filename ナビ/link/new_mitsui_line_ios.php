@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>三井住友カード（NL） 公式サイト</title>
-    <!-- Facebook Pixel Code -->
+<!-- Facebook Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -20,9 +20,13 @@ fbq('track', 'PageView');
 src="https://www.facebook.com/tr?id=476139670446219&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Facebook Pixel Code -->
-
 <script>
-    fbq('track', 'Purchase', {value: 150.00, currency: 'JPY'});
+fbq('track', 'AddToCart');
+</script>
+<script>
+_lt('send', 'cv', {
+  type: 'Conversion'
+},['48a5e5fb-3810-49c4-8ee1-4cb4c2eaa05c']);
 </script>
 </head>
 
@@ -30,7 +34,7 @@ src="https://www.facebook.com/tr?id=476139670446219&ev=PageView&noscript=1"
 
 <?php include 'Tags/body-tag.php'; ?>
 
-    <meta http-equiv="refresh" content="1; URL=https://re-roots.net/link.php?i=pgn7whvhbmzv&m=mgnigscl0i7o">
+    <meta http-equiv="refresh" content="1; URL=https://re-roots.net/link.php?i=pgn7whvhbmzv&m=mgn87mo5c0jz">
 <script async src="https://s.yimg.jp/images/listing/tool/cv/ytag.js"></script>
 <script>
 window.yjDataLayer = window.yjDataLayer || [];
