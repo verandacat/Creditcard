@@ -3,19 +3,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>三井住友VISAビジネスカード クラシック 公式サイト</title>
-</head>
-
-<body>
-
-<?php include 'Tags/body-tag.php'; ?>
-
     <script>
-    let link = 'https://re-roots.net/link.php?i=pgnbk3kp8fa9&m=mglyziibitpf';
+    let link = 'https://re-roots.net/link.php?i=pgljog9pq968&m=mgpdh0su35n6';
     let delay = 1000;     // 遷移までの待ち時間（ミリ秒）
     setTimeout(function () {
         location.href = link+'&pbid='+localStorage.getItem('reroots_clid')
     }, delay);
     </script>
+<?php include 'Tags/gtm.php'; ?>
+
+</head>
+
+<body>
+
+
+
 
 </body>
 

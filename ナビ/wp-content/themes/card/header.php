@@ -2,6 +2,25 @@
 <html lang="en">
 
 <head>
+<!-- Re:roots連携 -->
+<script>
+  const reroots = function() {
+    function getParam(p) {
+      let match = RegExp('[?&]' + p + '=([^&]*)').exec(location.search);
+      return match && match[1];
+    }
+    function addClid() {
+      let clids = [{param:'gclid',name:'g'},{param:'yclid',name:'y'}];
+      let name = 'reroots_clid';
+      clids.forEach(function(clid) {
+          let clidParam = getParam(clid.param);
+          if (clidParam) {localStorage.setItem(name, clid.name+'_'+clidParam);}
+      });
+    }
+    addClid();
+  }
+  addEventListener('load', reroots);
+</script>
     <!-- Google Tag Manager -->
     <script>
     (function(w, d, s, l, i) {

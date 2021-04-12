@@ -1,10 +1,10 @@
-<?php include 'Tags/head-tag.php'; ?>
+﻿<?php include 'Tags/head-tag.php'; ?>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>三井住友カード（NL） 公式サイト</title>
+    <title>プラチナプリファード（三井住友） 公式サイト</title>
     <script>
-    let link = 'https://re-roots.net/link.php?i=pgn7whvhbmzv&m=mgpdh0su35n6';
+    let link = 'https://re-roots.net/link.php?i=pglnhnz4s1z2&m=mgpdh0su35n6';
     let delay = 1000;     // 遷移までの待ち時間（ミリ秒）
     setTimeout(function () {
         location.href = link+'&pbid='+localStorage.getItem('reroots_clid')

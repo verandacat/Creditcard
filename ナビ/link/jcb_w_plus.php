@@ -3,11 +3,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JCB CARD W plus L 公式サイト</title>
-</head>
-
-<body>
-
-<?php include 'Tags/body-tag.php'; ?>
 
     <script>
     let link = 'https://re-roots.net/link.php?i=pgmckzu8s65d&m=mglyziibitpf';
@@ -17,6 +12,11 @@
     }, delay);
     </script>
 
+    <?php include 'Tags/gtm.php'; ?>
+
+</head>
+
+<body>
 </body>
 
 </html>
