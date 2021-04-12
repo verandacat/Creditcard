@@ -42,6 +42,33 @@ fbq('track', 'PageView');
 src="https://www.facebook.com/tr?id=476139670446219&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Facebook Pixel Code -->
+<!-- LINE Tag Base Code -->
+<!-- Do Not Modify -->
+<script>
+(function(g,d,o){
+  g._ltq=g._ltq||[];g._lt=g._lt||function(){g._ltq.push(arguments)};
+  var h=location.protocol==='https:'?'https://d.line-scdn.net':'http://d.line-cdn.net';
+  var s=d.createElement('script');s.async=1;
+  s.src=o||h+'/n/line_tag/public/release/v1/lt.js';
+  var t=d.getElementsByTagName('script')[0];t.parentNode.insertBefore(s,t);
+    })(window, document);
+_lt('init', {
+  customerType: 'lap',
+  tagId: '48a5e5fb-3810-49c4-8ee1-4cb4c2eaa05c'
+});
+_lt('send', 'pv', ['48a5e5fb-3810-49c4-8ee1-4cb4c2eaa05c']);
+</script>
+<noscript>
+  <img height="1" width="1" style="display:none"
+       src="https://tr.line.me/tag.gif?c_t=lap&t_id=48a5e5fb-3810-49c4-8ee1-4cb4c2eaa05c&e=pv&noscript=1" />
+</noscript>
+<!-- End LINE Tag Base Code -->
+<script>
+_lt('send', 'cv', {
+  type: 'CustomEvent'
+},['48a5e5fb-3810-49c4-8ee1-4cb4c2eaa05c']);
+</script>
+
 </head>
 
 <body>
