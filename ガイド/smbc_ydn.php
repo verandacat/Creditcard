@@ -95,10 +95,10 @@ ytag({
           しかも、<span class="red-text">年会費永年無料</span>だから、とにかく今すぐ1枚作ってみて！ </span><span class="icon"><img src="<?php bloginfo('template_url'); ?>/images/lp/smbc_ydn-img001.jpg"></span></div>
 
         <p class="center_text">&nbsp;</p>
-        <p class="center_text"><span class="y-bold red-text">↓↓しかも、既存ユーザーも対象です！<br>
-          ココマジで重要ですので絶対見逃さないで↓↓</span></p>
+        <p class="center_text"><span class="y-bold red-text">
+        ↓↓ココマジで重要ですので絶対見逃さないで↓↓</span></p>
         <p>&nbsp;</p>
-        <p> 現在、三井住友カードを持っている人も、三井住友カード（NL）に乗り換えすれば最大11,000円相当プレゼントされます！</p>
+        <p>今、三井住友カードに入会すれば、<span class="y-bold red-text">最大11,000円相当</span>プレゼントされます！</p>
         <p>&nbsp;</p>
         <p><img src="<?php bloginfo('template_url'); ?>/images/lp/smbc_ydn-img07.jpg" width="100%"/> </p>
         <p>&nbsp;</p>
