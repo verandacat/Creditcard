@@ -52,6 +52,22 @@ _lt('send', 'cv', {
   type: 'CustomEvent'
 },['48a5e5fb-3810-49c4-8ee1-4cb4c2eaa05c']);
 </script>
+
+<script language="javascript">
+    (function () {
+      var _lgy     = document.createElement('script');
+      var _lgy_adv = 9015;
+      window._lgy_advs = window._lgy_advs || {};
+      window._lgy_advs[_lgy_adv] = false;
+      window._lgy_options = window._lgy_options || {};
+      window._lgy_options[_lgy_adv] = {};
+      _lgy.async = true;
+      _lgy.src = 'https://dsp.logly.co.jp/seg.js';
+      var _lgy0 = document.getElementsByTagName('script')[0];
+      _lgy0.parentNode.insertBefore(_lgy, _lgy0);
+    })();
+  </script>
+  
 </head>
 
 <body>
@@ -203,7 +219,7 @@ _lt('send', 'cv', {
                     <span class="bold">最大10,000円相当がプレゼント</span>されるのは嬉しい。
                 </p>
 
-                <p class="right"><a href="<?php echo home_url('/'); ?>link/new_mitsui_2.php" class="prrrr bold blue"
+                <p class="right"><a href="<?php echo home_url('/'); ?>link/new_mitsui_11.php" class="prrrr bold blue"
                         target="_blank">→今すぐ最大11,000円相当GET</a></p>
 
                 <h2 class="mb20 bold">
@@ -309,7 +325,7 @@ _lt('send', 'cv', {
                 </p>
 
                 <p class="right bold">
-                    <a href="<?php echo home_url('/'); ?>link/new_mitsui_2.php" class="prrrr blue"
+                    <a href="<?php echo home_url('/'); ?>link/new_mitsui_11.php" class="prrrr blue"
                         target="_blank">→セブン-イレブン、ローソン、マクドナルドをお得に利用する</a>
                 </p>
 
@@ -479,7 +495,7 @@ _lt('send', 'cv', {
 
 
                 <p>
-                    今なら
+                    三井住友カード(NL)なら
                 </p>
 
                 <p class="center bold">
@@ -504,7 +520,7 @@ _lt('send', 'cv', {
                 </p>
 
                 <p>
-                    <a href="<?php echo home_url('/'); ?>link/new_mitsui_2.php" class="prrrr" target="_blank">
+                    <a href="<?php echo home_url('/'); ?>link/new_mitsui_11.php" class="prrrr" target="_blank">
                         <p class="center org" style="margin:0 auto">
                             <img src="<?php bloginfo('template_url'); ?>/images/number/btn.jpg" alt="" width="100%">
                         </p>
@@ -516,6 +532,8 @@ _lt('send', 'cv', {
         </div>
 
     </div>
+
+
 
 
     <?php get_footer(); ?>

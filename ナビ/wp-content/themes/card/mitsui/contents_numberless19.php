@@ -53,6 +53,22 @@ _lt('send', 'cv', {
   type: 'CustomEvent'
 },['48a5e5fb-3810-49c4-8ee1-4cb4c2eaa05c']);
 </script>
+
+<script language="javascript">
+    (function () {
+      var _lgy     = document.createElement('script');
+      var _lgy_adv = 9015;
+      window._lgy_advs = window._lgy_advs || {};
+      window._lgy_advs[_lgy_adv] = false;
+      window._lgy_options = window._lgy_options || {};
+      window._lgy_options[_lgy_adv] = {};
+      _lgy.async = true;
+      _lgy.src = 'https://dsp.logly.co.jp/seg.js';
+      var _lgy0 = document.getElementsByTagName('script')[0];
+      _lgy0.parentNode.insertBefore(_lgy, _lgy0);
+    })();
+  </script>
+  
 </head>
 
 <body>
@@ -480,7 +496,7 @@ _lt('send', 'cv', {
 
 
                 <p>
-                    今なら
+                    三井住友カード(NL)なら
                 </p>
 
                 <p class="center bold">

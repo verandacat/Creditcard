@@ -82,6 +82,7 @@
 
     <!-- 三井LP LINE用 -->
     <?php if(is_page('mitsui-numle-l')) : ?>
+    
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/numberless.css?<?php echo time(); ?>" />
     <!-- Global site tag (gtag.js) - Google Ads: 453046627 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-453046627"></script>
@@ -128,6 +129,21 @@
     _lt('send', 'cv', {
         type: 'CustomEvent'
     }, ['48a5e5fb-3810-49c4-8ee1-4cb4c2eaa05c']);
+    </script>
+
+    <script language="javascript">
+        (function () {
+        var _lgy     = document.createElement('script');
+        var _lgy_adv = 9015;
+        window._lgy_advs = window._lgy_advs || {};
+        window._lgy_advs[_lgy_adv] = false;
+        window._lgy_options = window._lgy_options || {};
+        window._lgy_options[_lgy_adv] = {};
+        _lgy.async = true;
+        _lgy.src = 'https://dsp.logly.co.jp/seg.js';
+        var _lgy0 = document.getElementsByTagName('script')[0];
+        _lgy0.parentNode.insertBefore(_lgy, _lgy0);
+        })();
     </script>
 
     <?php endif; ?>
