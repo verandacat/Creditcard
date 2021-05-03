@@ -92,7 +92,8 @@ _lt('send', 'cv', {
             <main id="main" class="site-main">
 
                 <h2 class="mb20">
-                        <span class="bold bg-y red">コンビニ（セブン-イレブン、ローソン、ファミリーマート）で５％還元される</span><br>
+                        <span style="font-size : 10pt">セブン-イレブン、ファミリーマート、ローソンの</span><br>
+                        <span class="bold bg-y red">全国のコンビニとマクドナルドで５％還元される！</span><br>
                         <span class="bold"><span class="red">永年無料</span>の<span class="red">三井住友カードのナンバーレス（NL）</span>がすごい</span>
                 </h2>
 
@@ -198,11 +199,14 @@ _lt('send', 'cv', {
                 <p class="right"><a href="<?php echo home_url('/'); ?>link/new_mitsui_1.php" class="prrrr bold blue"
                         target="_blank">→今すぐ最大5,000円相当GET</a></p>
 
-                <h2 class="mb20 bold">
-                        全国の<span class="red">コンビニ（セブン-イレブン、ファミリーマート、ローソン）やマクドナルド</span>でVisaのタッチ決済・MastercardRコンタクトレスを利用すると<br>
-                        <span class="f20 red bg-y">ポイント還元が驚愕の10倍!?!?</span>
+                <h2 class="mb20">
+                        <span style="font-size : 10pt">セブン-イレブン、ファミリーマート、ローソンの</span><br>
+                        <span class="bold">全国のコンビニやマクドナルドで利用<span style="font-size : 10pt">※</span>すると<br>
+                        <span class="f20 red bg-y">ポイント還元が驚愕の10倍!?!?</span></span>
                 </h2>
-
+<small>
+                        ※Visaのタッチ決済・MastercardRのコンタクトレス決済を利用した場合
+                    </small>
                 <p>
                     <img src="<?php bloginfo('template_url'); ?>/images/number/004.jpg" alt="">
                     <img src="<?php bloginfo('template_url'); ?>/images/number/005-1.jpg" alt="" width="100%">

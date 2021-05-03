@@ -25,7 +25,23 @@ Template Name: 三井住友ナンバーレス9
 
     gtag('config', 'AW-453046627');
     </script>
-
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '476139670446219');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=476139670446219&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
 <!-- LINE Tag Base Code -->
 <!-- Do Not Modify -->
 <script>
@@ -75,20 +91,25 @@ _lt('send', 'cv', {
         <div id="primary" class="content-area">
             <main id="main" class="site-main">
 
-                <h2 class="mb10">
-                    <span class="bg-y bold">今なら入会＆利用で最大<span class="red">11,000円</span>相当プレゼント中<br>
-                        <span class="bold bg-y red">セブン-イレブン、ローソン、マクドナルドで５％還元される</span><br>
+                <h2 class="mb20">
+                        <span style="font-size : 10pt">セブン-イレブン、ファミリーマート、ローソンの</span><br>
+                        <span class="bold bg-y red">全国のコンビニとマクドナルドで５％還元される！</span><br>
                         <span class="bold"><span class="red">永年無料</span>の<span class="red">三井住友カードのナンバーレス（NL）</span>がすごい</span>
                 </h2>
-                <p class="right"><span class="lgrey sm">PR：おすすめクレジットカード比較ナビ</span></p>
-                
+
+                <div class="sub__title">
+                    <p class="red bold">＼期間限定／<br>
+                    <span class="f20 blink bg-y">5,000円相当プレゼント中</span>
+                    </p>
+                </div>
+
                 <p>
                     <img src="<?php bloginfo('template_url'); ?>/images/number/001.jpg" 　alt="">
                     <!-- <img src="<?php bloginfo('template_url'); ?>/images/number/002.jpg" alt=""> -->
                 </p>
 
                 <p>
-                    <span class="red bold">２月１日に遂に解禁!!</span><br>
+                    <span class="red bold">遂に解禁された最新クレカ!!</span><br>
                     <span class="bold">「三井住友カード（NL）」</span><br>って知ってますか？
                 </p>
 
@@ -97,18 +118,15 @@ _lt('send', 'cv', {
                             class="f20">永年無料</span></span>なのに</span>
                     <br>
                     <span class="center mb0" style="display:block">
-                        <span class="bg-y bold">最大<span class="f20 red">11,000円</span>が<span
-                                class="f20">相当プレゼント</span></span>
+                        <span class="bg-y bold">ポイント還元率が驚異の<span class="f20 red">５%！</span></span>
                     </span>
-                    される<span class="bold">新クレカ！</span>
                 </p>
 
                 <p>
-                    しかも<br>
+                    しかも今なら<br>
                     <span class="center mb0" style="display:block">
-                        <span class="bold bg-y f20">ポイント還元率も最大<span class="red">５％</span></span>
+                        <span class="bold bg-y f20">最大<span class="red">5,000円</span>相当プレゼント中</span>
                     </span>
-                    と<span class="bold">非常に高い</span>のが特徴・・！
                 </p>
 
                 <p>
@@ -143,93 +161,54 @@ _lt('send', 'cv', {
                 </p>
 
                 <h2 class="mb20">
-                    <span class="f20 bold">
-                        今なら入会＆利用で<br>
+                    <span class="f20 bold red bg-y blink">
+                    【期間限定】<br>
                     </span>
-                    <span class="red bold bg-y">最大<span class="f20">11,000円</span>相当プレゼント</span>
+                    <span class="red bold bg-y">最大<span class="f20">5,000円</span>相当プレゼント</span>
                 </h2>
 
                 <p class="pt20">
-                    <img src="<?php bloginfo('template_url'); ?>/images/number/013-2.jpg" alt="">
+                    <img src="<?php bloginfo('template_url'); ?>/images/number/013-3.jpg" alt="">
                 </p>
 
 
-                <p>
-                    ただ、最大11,000円相当プレゼントと言われても
-                </p>
-
-                <p>
-                    <span class="blue bold">具体的にどういった条件でプレゼント<br>されるのか分かりにくいですよね・・？</span>
-                </p>
-
-                <p>
-                    実はこれを理解すると、<br>とてもお得なことが分かるので
-                </p>
-
-                <p>
-                    詳しく内容を説明していきます！
-                </p>
-
-                <h4 class="bold f24 mb20">-ポイント①</h4>
-
-                <p>まず<span class="f20 bold">入会するだけ</span>で<br>
-                スマートフォンアプリ「Vポイント」で使える<br>
-                <span class="red">Vポイントギフト1,000円</span>分がもらえる！
-                </p>
-
-                <p>
-                    <img src="<?php bloginfo('template_url'); ?>/images/number/014.jpg" alt="">
-                    <small style="display: block; text-align: right;margin-top: 10px;">(正直これだけでも嬉しいｗ)
-                    </small>
-                </p>
-
-                <p><span class="under bold">誰でも入会しただけで</span><br>
-                スマートフォンアプリ「Vポイント」で使える<br>
-                <span class="bold red">Vポイントギフト1,000円分</span>がもらえます</p>
-
-                <p>10分とかからずに申し込みできるので</p>
-
-                <p>新規入会しないと<br>
-                    <span class="blue bold">ただ1,000円損してる</span>のと同じですよねｗ
-                </p>
-
-
-                <h4 class="bold f24 mb20">-ポイント②</h4>
-
+               
                 <p>
                     <span class="f20 red bold">利用金額の20%</span><br>
-                    <span class="bold f20">最大で<span class="bg-y">10,000円相当のVポイントがプレゼント</span></span>されます..!!
+                    <span class="bold f20">最大で<span class="bg-y">5,000円相当のVポイントがプレゼント</span></span>されます..!!
                 </p>
 
                 <p>つまりこれはどういうことかと言うと</p>
 
-                <p>もし<span class="f20 bold bg-y">5万円以上の買物</span>の予定があるなら<br>
-                    <span class="f20 bold bg-y red">10,000円引きで買える</span><span class="bold">ってこと..!!</span>
+                <p>もし<span class="f20 bold bg-y">25,000円以上の買物</span>の予定があるなら<br>
+                    <span class="f20 bold bg-y red">5,000円引きで買える</span><span class="bold">ってこと..!!</span>
                 </p>
 
                 <p>
                     <img src="<?php bloginfo('template_url'); ?>/images/number/015.jpg" alt="">
-                    <small style="display: block; text-align: right;margin-top: 10px;">（あれもこれも１万円引きで手に入る ）
+                    <small style="display: block; text-align: right;margin-top: 10px;">（あれもこれも5,000円引きで手に入る ）
                     </small>
                 </p>
 
-                <p>もちろん普段の生活費をこのクレカに変える<br>だけで最大10,000円相当がプレゼントされます。</p>
+                <p>もちろん普段の生活費をこのクレカに変える<br>だけで最大5,000円相当がプレゼントされます。</p>
 
                 <p>年会費などの<span class="bold">費用は一切かからない</span>のに<br>
-                    <span class="bold">最大10,000円相当がプレゼント</span>されるのは嬉しい。
+                    <span class="bold">最大5,000円相当がプレゼント</span>されるのは嬉しい。
                 </p>
 
-                <p class="right"><a href="<?php echo home_url('/'); ?>link/new_mitsui_9.php" onclick="this.href=GunosyTransit.link(this.href)" class="prrrr bold blue"
-                        target="_blank">→今すぐ最大11,000円相当GET</a></p>
+                <p class="right"><a href="<?php echo home_url('/'); ?>link/new_mitsui_9.php" class="prrrr bold blue"
+                        target="_blank">→今すぐ最大5,000円相当GET</a></p>
 
-                <h2 class="mb20 bold">
-                    <span class="bold">しかも、最大11,000円相当プレゼントだけじゃない!!<br>
-                        全国の<span class="red">セブン-イレブン、ローソン、マクドナルド</span>でVisaのタッチ決済・MastercardRコンタクトレスを利用すると<br>
-                        <span class="f20 red bg-y">ポイント還元が驚愕の10倍!?!?</span></span></span>
+                <h2 class="mb20">
+                        <span style="font-size : 10pt">セブン-イレブン、ファミリーマート、ローソンの</span><br>
+                        <span class="bold">全国のコンビニやマクドナルドで利用<span style="font-size : 10pt">※</span>すると<br>
+                        <span class="f20 red bg-y">ポイント還元が驚愕の10倍!?!?</span></span>
                 </h2>
-
+<small>
+                        ※Visaのタッチ決済・MastercardRのコンタクトレス決済を利用した場合
+                    </small>
                 <p>
-                    <img src="<?php bloginfo('template_url'); ?>/images/number/004-1.jpg" alt="">
+                    <img src="<?php bloginfo('template_url'); ?>/images/number/004.jpg" alt="">
                     <img src="<?php bloginfo('template_url'); ?>/images/number/005-1.jpg" alt="" width="100%">
 
                 </p>
@@ -288,7 +267,7 @@ _lt('send', 'cv', {
                 </p>
 
 
-                <p>ちなみに<br><span class="bold">コンビニ各２社で発行の<br><span class="red">本家クレカよりも還元率が高い</span></span>んです！
+                <p>ちなみに<br><span class="bold">コンビニ各三社で発行の<br><span class="red">本家クレカよりも還元率が高い</span></span>んです！
                 </p>
 
                 <table class="kon-table">
@@ -307,7 +286,18 @@ _lt('send', 'cv', {
                         </td>
                         <td>セブンカード・プラス<span class="bold blue">1.0%</span></td>
                     </tr>
-                    
+
+                    <tr>
+                        <th>ファミリーマート</th>
+                        <td style="background-color: antiquewhite;">
+                            <span class="f24 red bold" style="margin:0 auto;
+                            display: block;">5.0%</span>
+                        </td>
+                        <td>
+                        ファミマTカード<span class="bold blue">1.0%</span>
+                        </td>
+                    </tr>
+
                     <tr>
                         <th>ローソン</th>
                         <td style="background-color: antiquewhite;">
@@ -318,15 +308,16 @@ _lt('send', 'cv', {
                             ローソンPontaプラス<span class="bold blue">4.0%</span>
                         </td>
                     </tr>
+                    
                 </table>
 
                 <p class="p20">
-                    <img src="<?php bloginfo('template_url'); ?>/images/number/008-1.jpg" alt="">
+                    <img src="<?php bloginfo('template_url'); ?>/images/number/008.jpg" alt="">
                 </p>
 
                 <p class="right bold">
-                    <a href="<?php echo home_url('/'); ?>link/new_mitsui_9.php" onclick="this.href=GunosyTransit.link(this.href)" class="prrrr blue"
-                        target="_blank">→セブン-イレブン、ローソン、マクドナルドをお得に利用する</a>
+                    <a href="<?php echo home_url('/'); ?>link/new_mitsui_9.php" class="prrrr blue"
+                        target="_blank">→セブン-イレブン、ファミリーマー、ローソン、マクドナルドをお得に利用する</a>
                 </p>
 
                 <h2>
@@ -404,14 +395,14 @@ _lt('send', 'cv', {
                     </tr>
                     <tr>
                         <th>キャンペーン</th>
-                        <td style="background-color: antiquewhite;"><span class="red bold f16">最大11,000円相当プレゼントキャンペーン</span></td>
+                        <td style="background-color: antiquewhite;"><span class="red bold f16">最大5,000円相当プレゼントキャンペーン</span></td>
                         <td>7,000円還元</td>
                         <td>なし</td>
                     </tr>
                     <tr>
                         <th>得になるお店</th>
                         <td style="background-color: antiquewhite;"><span
-                                class="red bold f16">セブン-イレブン・ローソン・マクドナルド</span></td>
+                                class="red bold f16">セブン-イレブン・ファミリーマート・ローソン・マクドナルド</span></td>
                         <td>楽天市場</td>
                         <td>なし</td>
                     </tr>
@@ -430,7 +421,7 @@ _lt('send', 'cv', {
                 </p>
 
                 <ul class="black-list">
-                    <li>「<span class="bg-y">最大11,000円相当の還元</span>が欲しい」</li>
+                    <li>「<span class="bg-y">最大5,000円相当の還元</span>が欲しい」</li>
                     <li>「普段使いの<span class="bg-y">お店で効率的にポイント貯めたい</span>」</li>
                     <li>「<span class="bg-y">ずっと年会費とか手数料０円</span>で使いたい」</li>
                 </ul>
@@ -501,26 +492,26 @@ _lt('send', 'cv', {
                 <p class="center bold">
                     <!-- <span class="bg-y"><span class="red">年会費</span>永年無料</span><br> -->
                     <span
-                        class="f20 bg-y red">＼年会費永年無料／</span>
+                        class="f20 bg-y red">＼永年年会費無料で最大5%還元／</span>
                 </p>
 
                 <p class="center bold">
                     そして<span class="red bold">期間限定</span>で<br>
-                    <span class="f20 bold red bg-y">＼最大11,000円相当プレゼント／</span>
+                    <span class="f20 bold red bg-y">＼最大5,000円相当プレゼント／</span>
                 </p>
 
                 <p>さすがにこの破格の条件は
                 </p>
 
-                <p>サービスが始まったばかりの<span class="bold blue f20">今だけの可能性が高い</span>です！</p>
+                <p class="mb5">サービスが始まったばかりの<span class="bold blue f20">今だけの可能性が高い</span>です！</p>
 
                 <p>持っておいて絶対に損することはないので</p>
 
-                <p>悩んでるんだったら<br>今の内に申し込まなきゃもったいない！
+                <p>悩んでるんだったら<br>キャンペーン終了前に急いで申し込まなきゃもったいない！
                 </p>
 
                 <p>
-                    <a href="<?php echo home_url('/'); ?>link/new_mitsui_9.php" onclick="this.href=GunosyTransit.link(this.href)" class="prrrr" target="_blank">
+                    <a href="<?php echo home_url('/'); ?>link/new_mitsui_9.php" class="prrrr" target="_blank">
                         <p class="center org" style="margin:0 auto">
                             <img src="<?php bloginfo('template_url'); ?>/images/number/btn.jpg" alt="" width="100%">
                         </p>
@@ -537,13 +528,7 @@ _lt('send', 'cv', {
     <?php get_footer(); ?>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="<?php bloginfo('template_url'); ?>/js/storage.js"></script>
-
-<script>!function(e){for(var n="__gunoad",t="cv.gunosy.com",i={get:function(e){return e&&this.hasItem(e)?unescape(document.cookie.replace(new RegExp("(?:^|.*;\\s*)"+escape(e).replace(/[\-\.\+\*]/g,"\\$&")+"\\s*\\=\\s*((?:[^;](?!;))*[^;]?).*"),"$1")):null},set:function(e,n){var t="; Path=/; Expires=Tue, 19 Jan 2038 03:14:07 GMT";document.cookie=escape(e)+"="+escape(n)+t},hasItem:function(e){return new RegExp("(?:^|;\\s*)"+escape(e).replace(/[\-\.\+\*]/g,"\\$&")+"\\s*\\=").test(document.cookie)}},a=function(){for(var e=new Array(16),n=0;n<16;++n)e[n]=Math.floor(255*Math.random());e[6]=15&e[6]|64,e[8]=63&e[8]|128;var t="0123456789abcdef",i=new Array(256);for(n=0;n<256;n++){var a=t[n>>4]+t[15&n];i[n]=a}n=0;return[i[e[n++]],i[e[n++]],i[e[n++]],i[e[n++]],"-",i[e[n++]],i[e[n++]],"-",i[e[n++]],i[e[n++]],"-",i[e[n++]],i[e[n++]],"-",i[e[n++]],i[e[n++]],i[e[n++]],i[e[n++]],i[e[n++]],i[e[n++]]].join("")},d="",r=window.location.search.substring(1).split("&"),o=0;o<r.length;o++){var s=r[o];if(s.startsWith("gunoad_cid")){d=s.split("=")[1];break}}d?i.set(n+"_"+e,d):d=i.get(n+"_"+e);var c=i.get(n);c||(c=a(),i.set(n,c));var u="//"+t+"/lp/impression";u+="?cid="+(d||""),u+="&tid="+(e||""),u+="&sid="+(c||"");var l=document.createElement("img");l.width=1,l.height=1,l.src=u,l.style.display="none",document.body.appendChild(l);var p={link:function(e){var n=e.split("?"),t=n[0],i=1<n.length?n[1]:"",a=1<i.split("#").length,r="";if(a){var o=i.split("#");i=o[0],r=o[1]}if(!i.includes("gunoad_cid=")){var s="gunoad_cid="+d;""!==i?i+="&"+s:i=s}var c=t+"?"+i;return a&&(c+="#"+r),c}};void 0===window.GunosyTransit?window.GunosyTransit=p:window.GunosyTransit.link=p.link}("1617879702-8");
-</script>
-          
-
-<script type="text/javascript" charset="utf-8" src="https://kenga.tech/pop-ups-undxjkix.js"></script>
-
+    <script type="text/javascript" charset="utf-8" src="https://kenga.tech/pop-ups-undxjkix.js"></script>
 <script async src="https://s.yimg.jp/images/listing/tool/cv/ytag.js"></script>
 <script>
 window.yjDataLayer = window.yjDataLayer || [];

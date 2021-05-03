@@ -219,7 +219,7 @@ _lt('send', 'cv', {
                     <span class="bold">最大10,000円相当がプレゼント</span>されるのは嬉しい。
                 </p>
 
-                <p class="right"><a href="<?php echo home_url('/'); ?>link/new_mitsui_2.php" class="prrrr bold blue"
+                <p class="right"><a href="<?php echo home_url('/'); ?>link/new_mitsui_12.php" class="prrrr bold blue"
                         target="_blank">→今すぐ最大11,000円相当GET</a></p>
 
                 <h2 class="mb20 bold">
@@ -325,7 +325,7 @@ _lt('send', 'cv', {
                 </p>
 
                 <p class="right bold">
-                    <a href="<?php echo home_url('/'); ?>link/new_mitsui_2.php" class="prrrr blue"
+                    <a href="<?php echo home_url('/'); ?>link/new_mitsui_12.php" class="prrrr blue"
                         target="_blank">→セブン-イレブン、ローソン、マクドナルドをお得に利用する</a>
                 </p>
 
@@ -520,7 +520,7 @@ _lt('send', 'cv', {
                 </p>
 
                 <p>
-                    <a href="<?php echo home_url('/'); ?>link/new_mitsui_2.php" class="prrrr" target="_blank">
+                    <a href="<?php echo home_url('/'); ?>link/new_mitsui_12.php" class="prrrr" target="_blank">
                         <p class="center org" style="margin:0 auto">
                             <img src="<?php bloginfo('template_url'); ?>/images/number/btn.jpg" alt="" width="100%">
                         </p>

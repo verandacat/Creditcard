@@ -92,7 +92,8 @@ _lt('send', 'cv', {
             <main id="main" class="site-main">
 
                 <h2 class="mb20">
-                        <span class="bold bg-y red">コンビニ（セブン-イレブン、ローソン、ファミリーマート）で５％還元される</span><br>
+                        <span style="font-size : 10pt">セブン-イレブン、ファミリーマート、ローソンの</span><br>
+                        <span class="bold bg-y red">全国のコンビニとマクドナルドで５％還元される！</span><br>
                         <span class="bold"><span class="red">永年無料</span>の<span class="red">三井住友カードのナンバーレス（NL）</span>がすごい</span>
                 </h2>
 
@@ -160,49 +161,13 @@ _lt('send', 'cv', {
                 </p>
 
                 <h2 class="mb20">
-                    <span class="f20 bold red bg-y blink">
-                    【期間限定】<br>
-                    </span>
-                    <span class="red bold bg-y">最大<span class="f20">5,000円</span>相当プレゼント</span>
+                        <span style="font-size : 10pt">セブン-イレブン、ファミリーマート、ローソンの</span><br>
+                        <span class="bold">全国のコンビニやマクドナルドで利用<span style="font-size : 10pt">※</span>すると<br>
+                        <span class="f20 red bg-y">ポイント還元が驚愕の10倍!?!?</span></span>
                 </h2>
-
-                <p class="pt20">
-                    <img src="<?php bloginfo('template_url'); ?>/images/number/013-3.jpg" alt="">
-                </p>
-
-
-               
-                <p>
-                    <span class="f20 red bold">利用金額の20%</span><br>
-                    <span class="bold f20">最大で<span class="bg-y">5,000円相当のVポイントがプレゼント</span></span>されます..!!
-                </p>
-
-                <p>つまりこれはどういうことかと言うと</p>
-
-                <p>もし<span class="f20 bold bg-y">25,000円以上の買物</span>の予定があるなら<br>
-                    <span class="f20 bold bg-y red">5,000円引きで買える</span><span class="bold">ってこと..!!</span>
-                </p>
-
-                <p>
-                    <img src="<?php bloginfo('template_url'); ?>/images/number/015.jpg" alt="">
-                    <small style="display: block; text-align: right;margin-top: 10px;">（あれもこれも5,000円引きで手に入る ）
+<small>
+                        ※Visaのタッチ決済・MastercardRのコンタクトレス決済を利用した場合
                     </small>
-                </p>
-
-                <p>もちろん普段の生活費をこのクレカに変える<br>だけで最大5,000円相当がプレゼントされます。</p>
-
-                <p>年会費などの<span class="bold">費用は一切かからない</span>のに<br>
-                    <span class="bold">最大5,000円相当がプレゼント</span>されるのは嬉しい。
-                </p>
-
-                <p class="right"><a href="<?php echo home_url('/'); ?>link/new_mitsui_1.php" class="prrrr bold blue"
-                        target="_blank">→今すぐ最大5,000円相当GET</a></p>
-
-                <h2 class="mb20 bold">
-                        全国の<span class="red">コンビニ（セブン-イレブン、ファミリーマート、ローソン）やマクドナルド</span>でVisaのタッチ決済・MastercardRコンタクトレスを利用すると<br>
-                        <span class="f20 red bg-y">ポイント還元が驚愕の10倍!?!?</span>
-                </h2>
-
                 <p>
                     <img src="<?php bloginfo('template_url'); ?>/images/number/004.jpg" alt="">
                     <img src="<?php bloginfo('template_url'); ?>/images/number/005-1.jpg" alt="" width="100%">
@@ -315,7 +280,45 @@ _lt('send', 'cv', {
                     <a href="<?php echo home_url('/'); ?>link/new_mitsui_1.php" class="prrrr blue"
                         target="_blank">→セブン-イレブン、ファミリーマー、ローソン、マクドナルドをお得に利用する</a>
                 </p>
+                <h2 class="mb20">
+                    <span class="f20 bold red bg-y blink">
+                    【期間限定】<br>
+                    </span>
+                    さらに今なら<br>
+                    <span class="red bold bg-y">最大<span class="f20">5,000円</span>相当プレゼント</span>
+                </h2>
 
+                <p class="pt20">
+                    <img src="<?php bloginfo('template_url'); ?>/images/number/013-3.jpg" alt="">
+                </p>
+
+
+               
+                <p>
+                    <span class="f20 red bold">利用金額の20%</span><br>
+                    <span class="bold f20">最大で<span class="bg-y">5,000円相当のVポイントがプレゼント</span></span>されます..!!
+                </p>
+
+                <p>つまりこれはどういうことかと言うと</p>
+
+                <p>もし<span class="f20 bold bg-y">25,000円以上の買物</span>の予定があるなら<br>
+                    <span class="f20 bold bg-y red">5,000円引きで買える</span><span class="bold">ってこと..!!</span>
+                </p>
+
+                <p>
+                    <img src="<?php bloginfo('template_url'); ?>/images/number/015.jpg" alt="">
+                    <small style="display: block; text-align: right;margin-top: 10px;">（あれもこれも5,000円引きで手に入る ）
+                    </small>
+                </p>
+
+                <p>もちろん普段の生活費をこのクレカに変える<br>だけで最大5,000円相当がプレゼントされます。</p>
+
+                <p>年会費などの<span class="bold">費用は一切かからない</span>のに<br>
+                    <span class="bold">最大5,000円相当がプレゼント</span>されるのは嬉しい。
+                </p>
+
+                <p class="right"><a href="<?php echo home_url('/'); ?>link/new_mitsui_1.php" class="prrrr bold blue"
+                        target="_blank">→今すぐ最大5,000円相当GET</a></p>
                 <h2>
                     <span class="bold">その他<br><span class="bg-y">Amazon・楽天市場・マツモトキヨシ</span>もお得に..!!</span>
                 </h2>
@@ -331,7 +334,7 @@ _lt('send', 'cv', {
                 </p>
 
                 <p>
-                    更にマツモトキヨシなど<span class="f20 bold">全国50店舗の中から選んだ３つの<br>お店</span>も<span
+                    またマツモトキヨシなど<span class="f20 bold">全国50店舗の中から選んだ３つの<br>お店</span>も<span
                         class="f20 bold">ポイント2倍</span>の対象になります！
                 </p>
 

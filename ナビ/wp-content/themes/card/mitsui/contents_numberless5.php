@@ -42,7 +42,6 @@ fbq('track', 'PageView');
 src="https://www.facebook.com/tr?id=476139670446219&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Facebook Pixel Code -->
-
 <!-- LINE Tag Base Code -->
 <!-- Do Not Modify -->
 <script>
@@ -93,14 +92,14 @@ _lt('send', 'cv', {
             <main id="main" class="site-main">
 
                 <h2 class="mb20">
-                    <span class="bg-y bold">今なら入会＆利用で最大<span class="red">11,000円</span>相当プレゼント中<br>
-                        <span class="bold bg-y red">セブン-イレブン、ローソン、マクドナルドで５％還元される</span><br>
+                        <span style="font-size : 10pt">セブン-イレブン、ファミリーマート、ローソンの</span><br>
+                        <span class="bold bg-y red">全国のコンビニとマクドナルドで５％還元される！</span><br>
                         <span class="bold"><span class="red">永年無料</span>の<span class="red">三井住友カードのナンバーレス（NL）</span>がすごい</span>
                 </h2>
 
                 <div class="sub__title">
-                    <p class="red bold">＼4月30日まで限定／<br>
-                    <span class="f20 blink bg-y">11000円相当プレゼント中</span>
+                    <p class="red bold">＼期間限定／<br>
+                    <span class="f20 blink bg-y">5,000円相当プレゼント中</span>
                     </p>
                 </div>
 
@@ -119,18 +118,15 @@ _lt('send', 'cv', {
                             class="f20">永年無料</span></span>なのに</span>
                     <br>
                     <span class="center mb0" style="display:block">
-                        <span class="bg-y bold">最大<span class="f20 red">11,000円</span><span
-                                class="f20">相当プレゼント</span></span>
+                        <span class="bg-y bold">ポイント還元率が驚異の<span class="f20 red">５%！</span></span>
                     </span>
-                    される<span class="bold">新クレカ！</span>
                 </p>
 
                 <p>
-                    しかも<br>
+                    しかも今なら<br>
                     <span class="center mb0" style="display:block">
-                        <span class="bold bg-y f20">ポイント還元率も最大<span class="red">５％</span></span>
+                        <span class="bold bg-y f20">最大<span class="red">5,000円</span>相当プレゼント中</span>
                     </span>
-                    と<span class="bold">非常に高い</span>のが特徴・・！
                 </p>
 
                 <p>
@@ -166,92 +162,53 @@ _lt('send', 'cv', {
 
                 <h2 class="mb20">
                     <span class="f20 bold red bg-y blink">
-                    【4月30日まで限定】<br>
+                    【期間限定】<br>
                     </span>
-                    <span class="red bold bg-y">最大<span class="f20">11,000円</span>相当プレゼント</span>
+                    <span class="red bold bg-y">最大<span class="f20">5,000円</span>相当プレゼント</span>
                 </h2>
 
                 <p class="pt20">
-                    <img src="<?php bloginfo('template_url'); ?>/images/number/013-2.jpg" alt="">
+                    <img src="<?php bloginfo('template_url'); ?>/images/number/013-3.jpg" alt="">
                 </p>
 
 
-                <p>
-                    ただ、最大11,000円相当プレゼントと言われても
-                </p>
-
-                <p>
-                    <span class="blue bold">具体的にどういった条件でプレゼント<br>されるのか分かりにくいですよね・・？</span>
-                </p>
-
-                <p>
-                    実はこれを理解すると、<br>とてもお得なことが分かるので
-                </p>
-
-                <p>
-                    詳しく内容を説明していきます！
-                </p>
-
-                <h4 class="bold f24 mb20">-ポイント①</h4>
-
-                <p>まず<span class="f20 bold">入会するだけ</span>で<br>
-                スマートフォンアプリ「Vポイント」で使える<br>
-                <span class="red">Vポイントギフト1,000円</span>分がもらえる！
-                </p>
-
-                <p>
-                    <img src="<?php bloginfo('template_url'); ?>/images/number/014.jpg" alt="">
-                    <small style="display: block; text-align: right;margin-top: 10px;">(正直これだけでも嬉しいｗ)
-                    </small>
-                </p>
-
-                <p><span class="under bold">誰でも入会しただけで</span><br>
-                スマートフォンアプリ「Vポイント」で使える<br>
-                <span class="bold red">Vポイントギフト1,000円分</span>がもらえます</p>
-
-                <p>10分とかからずに申し込みできるので</p>
-
-                <p>新規入会しないと<br>
-                    <span class="blue bold">ただ1,000円損してる</span>のと同じですよねｗ
-                </p>
-
-
-                <h4 class="bold f24 mb20">-ポイント②</h4>
-
+               
                 <p>
                     <span class="f20 red bold">利用金額の20%</span><br>
-                    <span class="bold f20">最大で<span class="bg-y">10,000円相当のVポイントがプレゼント</span></span>されます..!!
+                    <span class="bold f20">最大で<span class="bg-y">5,000円相当のVポイントがプレゼント</span></span>されます..!!
                 </p>
 
                 <p>つまりこれはどういうことかと言うと</p>
 
-                <p>もし<span class="f20 bold bg-y">5万円以上の買物</span>の予定があるなら<br>
-                    <span class="f20 bold bg-y red">10,000円引きで買える</span><span class="bold">ってこと..!!</span>
+                <p>もし<span class="f20 bold bg-y">25,000円以上の買物</span>の予定があるなら<br>
+                    <span class="f20 bold bg-y red">5,000円引きで買える</span><span class="bold">ってこと..!!</span>
                 </p>
 
                 <p>
                     <img src="<?php bloginfo('template_url'); ?>/images/number/015.jpg" alt="">
-                    <small style="display: block; text-align: right;margin-top: 10px;">（あれもこれも１万円引きで手に入る ）
+                    <small style="display: block; text-align: right;margin-top: 10px;">（あれもこれも5,000円引きで手に入る ）
                     </small>
                 </p>
 
-                <p>もちろん普段の生活費をこのクレカに変える<br>だけで最大10,000円相当がプレゼントされます。</p>
+                <p>もちろん普段の生活費をこのクレカに変える<br>だけで最大5,000円相当がプレゼントされます。</p>
 
                 <p>年会費などの<span class="bold">費用は一切かからない</span>のに<br>
-                    <span class="bold">最大10,000円相当がプレゼント</span>されるのは嬉しい。
+                    <span class="bold">最大5,000円相当がプレゼント</span>されるのは嬉しい。
                 </p>
 
                 <p class="right"><a href="<?php echo home_url('/'); ?>link/new_mitsui_5.php" class="prrrr bold blue"
-                        target="_blank">→今すぐ最大11,000円相当GET</a></p>
+                        target="_blank">→今すぐ最大5,000円相当GET</a></p>
 
-                <h2 class="mb20 bold">
-                    <span class="bold">しかも、最大11,000円相当プレゼントだけじゃない!!<br>
-                        全国の<span class="red">セブン-イレブン、ローソン、マクドナルド</span>でVisaのタッチ決済・MastercardRコンタクトレスを利用すると<br>
-                        <span class="f20 red bg-y">ポイント還元が驚愕の10倍!?!?</span></span></span>
+                <h2 class="mb20">
+                        <span style="font-size : 10pt">セブン-イレブン、ファミリーマート、ローソンの</span><br>
+                        <span class="bold">全国のコンビニやマクドナルドで利用<span style="font-size : 10pt">※</span>すると<br>
+                        <span class="f20 red bg-y">ポイント還元が驚愕の10倍!?!?</span></span>
                 </h2>
-
+<small>
+                        ※Visaのタッチ決済・MastercardRのコンタクトレス決済を利用した場合
+                    </small>
                 <p>
-                    <img src="<?php bloginfo('template_url'); ?>/images/number/004-1.jpg" alt="">
+                    <img src="<?php bloginfo('template_url'); ?>/images/number/004.jpg" alt="">
                     <img src="<?php bloginfo('template_url'); ?>/images/number/005-1.jpg" alt="" width="100%">
 
                 </p>
@@ -310,7 +267,7 @@ _lt('send', 'cv', {
                 </p>
 
 
-                <p>ちなみに<br><span class="bold">コンビニ各２社で発行の<br><span class="red">本家クレカよりも還元率が高い</span></span>んです！
+                <p>ちなみに<br><span class="bold">コンビニ各三社で発行の<br><span class="red">本家クレカよりも還元率が高い</span></span>んです！
                 </p>
 
                 <table class="kon-table">
@@ -329,7 +286,18 @@ _lt('send', 'cv', {
                         </td>
                         <td>セブンカード・プラス<span class="bold blue">1.0%</span></td>
                     </tr>
-                    
+
+                    <tr>
+                        <th>ファミリーマート</th>
+                        <td style="background-color: antiquewhite;">
+                            <span class="f24 red bold" style="margin:0 auto;
+                            display: block;">5.0%</span>
+                        </td>
+                        <td>
+                        ファミマTカード<span class="bold blue">1.0%</span>
+                        </td>
+                    </tr>
+
                     <tr>
                         <th>ローソン</th>
                         <td style="background-color: antiquewhite;">
@@ -340,15 +308,16 @@ _lt('send', 'cv', {
                             ローソンPontaプラス<span class="bold blue">4.0%</span>
                         </td>
                     </tr>
+                    
                 </table>
 
                 <p class="p20">
-                    <img src="<?php bloginfo('template_url'); ?>/images/number/008-1.jpg" alt="">
+                    <img src="<?php bloginfo('template_url'); ?>/images/number/008.jpg" alt="">
                 </p>
 
                 <p class="right bold">
                     <a href="<?php echo home_url('/'); ?>link/new_mitsui_5.php" class="prrrr blue"
-                        target="_blank">→セブン-イレブン、ローソン、マクドナルドをお得に利用する</a>
+                        target="_blank">→セブン-イレブン、ファミリーマー、ローソン、マクドナルドをお得に利用する</a>
                 </p>
 
                 <h2>
@@ -426,14 +395,14 @@ _lt('send', 'cv', {
                     </tr>
                     <tr>
                         <th>キャンペーン</th>
-                        <td style="background-color: antiquewhite;"><span class="red bold f16">最大11,000円相当プレゼントキャンペーン</span></td>
+                        <td style="background-color: antiquewhite;"><span class="red bold f16">最大5,000円相当プレゼントキャンペーン</span></td>
                         <td>7,000円還元</td>
                         <td>なし</td>
                     </tr>
                     <tr>
                         <th>得になるお店</th>
                         <td style="background-color: antiquewhite;"><span
-                                class="red bold f16">セブン-イレブン・ローソン・マクドナルド</span></td>
+                                class="red bold f16">セブン-イレブン・ファミリーマート・ローソン・マクドナルド</span></td>
                         <td>楽天市場</td>
                         <td>なし</td>
                     </tr>
@@ -452,7 +421,7 @@ _lt('send', 'cv', {
                 </p>
 
                 <ul class="black-list">
-                    <li>「<span class="bg-y">最大11,000円相当の還元</span>が欲しい」</li>
+                    <li>「<span class="bg-y">最大5,000円相当の還元</span>が欲しい」</li>
                     <li>「普段使いの<span class="bg-y">お店で効率的にポイント貯めたい</span>」</li>
                     <li>「<span class="bg-y">ずっと年会費とか手数料０円</span>で使いたい」</li>
                 </ul>
@@ -523,19 +492,18 @@ _lt('send', 'cv', {
                 <p class="center bold">
                     <!-- <span class="bg-y"><span class="red">年会費</span>永年無料</span><br> -->
                     <span
-                        class="f20 bg-y red">＼年会費永年無料／</span>
+                        class="f20 bg-y red">＼永年年会費無料で最大5%還元／</span>
                 </p>
 
                 <p class="center bold">
                     そして<span class="red bold">期間限定</span>で<br>
-                    <span class="f20 bold red bg-y">＼最大11,000円相当プレゼント／</span>
+                    <span class="f20 bold red bg-y">＼最大5,000円相当プレゼント／</span>
                 </p>
 
                 <p>さすがにこの破格の条件は
                 </p>
 
                 <p class="mb5">サービスが始まったばかりの<span class="bold blue f20">今だけの可能性が高い</span>です！</p>
-                <small style="display: block" class="bold red mb20">注：11,000円相当プレゼントは4/30日で終了です</small>
 
                 <p>持っておいて絶対に損することはないので</p>
 
