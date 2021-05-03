@@ -1,5 +1,5 @@
 <?php /*
-Template Name: 三井住友ナンバーレス16
+Template Name: 三井住友ナンバーレス17
 */
 ?>
 
