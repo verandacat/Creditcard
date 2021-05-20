@@ -429,6 +429,10 @@ a {
     color: inherit;
 }
 
+small {
+    font-size: 0.8rem;
+  }
+
 .under {
     text-decoration: underline;
 }
@@ -572,6 +576,10 @@ a {
 .mb20 {
     margin-bottom: 20px;
 }
+
+.mt20 {
+    margin-top: 20px;
+  }
 
 .right {
     text-align: right;
@@ -757,11 +765,90 @@ header.entry-header {
 .btn {
     display: block;
     text-align: center;
-}
+    animation: fluffy 0.3s infinite linear;
+  }
+  
+  @keyframes fluffy {
+    0%,
+    100% {
+      transform: skew(0deg, 0deg);
+    }
+    25% {
+      transform: skew(1deg, 1deg);
+    }
+    35% {
+      transform: skew(0deg, 0deg);
+    }
+    75% {
+      transform: skew(-1deg, -1deg);
+    }
+  }
 
 .btn img {
     margin: auto;
 }
+
+.comment-box {
+    width: 100%;
+    padding: 14px;
+    background-color: #1c9cea;
+  }
+  
+  .comment-box .comment {
+    padding: 14px 8px;
+    border-bottom: 1px solid #eee;
+    background-color: white;
+  }
+  .comment-box .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .comment-box .comment img.img {
+    max-width: 80px;
+    height: 80px;
+  }
+  .comment-box .comment .content {
+    margin-left: 10px;
+    font-size: 1rem;
+    padding-top: 10px;
+    font-weight: bold;
+    color: #444;
+    position: relative;
+  }
+  .comment-box .comment .content::before {
+    content: "";
+    width: 30px;
+    height: 10px;
+    top: -4px;
+    right: 0;
+    position: absolute;
+    background: url(./images/number/icon-t5.svg) no-repeat 50% 50%/ 20px;
+  }
+  
+  .comment-box .comment .content p {
+    margin-bottom: 10px;
+  }
+  .icon-box {
+    width: 80%;
+    padding-top: 0;
+  }
+  .icon-box .icon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.8rem;
+    color: #999;
+  }
+  .icon-box .icon span {
+    margin-left: 16px;
+    font-weight: normal;
+  }
+  
+  @media (max-width: 680px) {
+    .icon-box .icon span {
+      margin-left: 10px;
+    }
+  }
 
 footer#mens {
     background: #666;

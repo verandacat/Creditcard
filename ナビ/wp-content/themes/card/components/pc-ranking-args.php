@@ -27,6 +27,9 @@ $points5 = get_field('points5');
 $url = get_field('url');
 $furl = get_field('furl');
 $furlS = get_field('furl-s');
+$urlEtc = get_field('url_etc');
+$urlSpeed = get_field('url_speed');
+$urlStu = get_field('url_student');
 $rankText = "";
 $starImg = "";
 $priceFirst = get_field('price-first');
@@ -135,17 +138,45 @@ if($i == 1) {
     <h2 class="title__wrap">
         <?php if($_GET['f'] == 'on') : ?>
             <?php if(is_page('rankingspeed')) : ?>
-            <a href="<?php echo home_url('/'); ?><?php echo $furlS; ?>" class="prrrr" target="_blank">
+                <a href="<?php echo home_url('/'); ?><?php echo $furlS; ?>" class="prrrr" target="_blank">
             <?php else : ?>
-            <a href="<?php echo home_url('/'); ?><?php echo $furl; ?>" class="prrrr" target="_blank">
+                <a href="<?php echo home_url('/'); ?><?php echo $furl; ?>" class="prrrr" target="_blank">
             <?php endif; ?>
-            
-            <?php the_title(); ?>
-            </a>
+           
+        <?php the_title(); ?>
+        </a>
+        
+        <?php else : ?>
+            <?php if(is_page('rankingetc')) : ?>
+                <?php if(!empty($urlEtc)) : ?>
+                    <a href="<?php echo home_url('/'); ?><?php echo $urlEtc; ?>" class="prrrr" target="_blank">
+                <?php else : ?>
+                    <a href="<?php echo home_url('/'); ?><?php echo $url; ?>" class="prrrr" target="_blank">
+                <?php endif; ?>
+                <?php the_title(); ?>
+                </a>
+            <?php elseif(is_page('rankingspeed')) : ?>
+                <?php if(!empty($urlSpeed)) : ?>
+                    <a href="<?php echo home_url('/'); ?><?php echo $urlSpeed; ?>" class="prrrr" target="_blank">
+                <?php else : ?>
+                    <a href="<?php echo home_url('/'); ?><?php echo $url; ?>" class="prrrr" target="_blank">
+                <?php endif; ?>
+                <?php the_title(); ?>
+                </a>
+            <?php elseif(is_page('rankingstudent')) : ?>    
+                <?php if(!empty($urlStu)) : ?>
+                    <a href="<?php echo home_url('/'); ?><?php echo $urlStu; ?>" class="prrrr" target="_blank">
+                <?php else : ?>
+                    <a href="<?php echo home_url('/'); ?><?php echo $url; ?>" class="prrrr" target="_blank">
+                <?php endif; ?>
+                <?php the_title(); ?>
+                </a>
             <?php else : ?>
-            <a href="<?php echo home_url('/'); ?><?php echo $url; ?>" class="prrrr" target="_blank">
-            <?php the_title(); ?>
-            </a>
+
+                <a href="<?php echo home_url('/'); ?><?php echo $url; ?>" class="prrrr" target="_blank">
+                <?php the_title(); ?>
+                </a>
+            <?php endif; ?>
         <?php endif; ?>
 
         
@@ -197,12 +228,47 @@ if($i == 1) {
             </a>
             <?php endif; ?>
         <?php else : ?>
+            <?php if(is_page('rankingetc')) : ?>
+                <?php if(!empty($urlEtc)) : ?>
+                    <a href="<?php echo home_url('/'); ?><?php echo $urlEtc; ?>" class="prrrr" target="_blank">
+                <?php else : ?>
+                    <a href="<?php echo home_url('/'); ?><?php echo $url; ?>" class="prrrr" target="_blank">
+                <?php endif; ?>
+                        <picture>
+                            <source type="image/webp" srcset="<?php echo $webp; ?>">
+                            <img src="<?php echo $image_url[0]; ?>" alt="<?php the_title(); ?>">
+                        </picture>
+                    </a>
+            <?php elseif(is_page('rankingspeed')) : ?>
+                <?php if(!empty($urlSpeed)) : ?>
+                    <a href="<?php echo home_url('/'); ?><?php echo $urlSpeed; ?>" class="prrrr" target="_blank">
+                <?php else : ?>
+                    <a href="<?php echo home_url('/'); ?><?php echo $url; ?>" class="prrrr" target="_blank">
+                <?php endif; ?>
+                        <picture>
+                            <source type="image/webp" srcset="<?php echo $webp; ?>">
+                            <img src="<?php echo $image_url[0]; ?>" alt="<?php the_title(); ?>">
+                        </picture>
+                    </a>
+            <?php elseif(is_page('rankingstudent')) : ?>    
+                <?php if(!empty($urlStu)) : ?>
+                    <a href="<?php echo home_url('/'); ?><?php echo $urlStu; ?>" class="prrrr" target="_blank">
+                <?php else : ?>
+                    <a href="<?php echo home_url('/'); ?><?php echo $url; ?>" class="prrrr" target="_blank">
+                <?php endif; ?>
+                        <picture>
+                            <source type="image/webp" srcset="<?php echo $webp; ?>">
+                            <img src="<?php echo $image_url[0]; ?>" alt="<?php the_title(); ?>">
+                        </picture>
+                    </a>
+            <?php else : ?>
             <a href="<?php echo home_url('/'); ?><?php echo $url; ?>" class="prrrr" target="_blank">
                 <picture>
                     <source type="image/webp" srcset="<?php echo $webp; ?>">
                     <img src="<?php echo $image_url[0]; ?>" alt="<?php the_title(); ?>">
                 </picture>
             </a>
+            <?php endif; ?>
         <?php endif; ?>
             
         </div>
@@ -246,9 +312,43 @@ if($i == 1) {
                 </a>
                 <?php endif; ?>
             <?php else : ?>
+
+                <?php if(is_page('rankingetc')) : ?>
+                    <?php if(!empty($urlEtc)) : ?>
+                        <a class="koushiki__btn prrrr" href="<?php echo home_url('/'); ?><?php echo $urlEtc; ?>"
+                    target="_blank">
+                    <?php else : ?>
+                        <a class="koushiki__btn prrrr" href="<?php echo home_url('/'); ?><?php echo $url; ?>"
+                    target="_blank">
+                    <?php endif; ?>
+                        申し込みはこちら
+                    </a>
+                <?php elseif(is_page('rankingspeed')) : ?>
+                    <?php if(!empty($urlSpeed)) : ?>
+                        <a class="koushiki__btn prrrr" href="<?php echo home_url('/'); ?><?php echo $urlSpeed; ?>"
+                    target="_blank">
+                    <?php else : ?>
+                        <a class="koushiki__btn prrrr" href="<?php echo home_url('/'); ?><?php echo $url; ?>"
+                    target="_blank">
+                    <?php endif; ?>
+                        申し込みはこちら
+                    </a>
+                <?php elseif(is_page('rankingstudent')) : ?>    
+                    <?php if(!empty($urlStu)) : ?>
+                        <a class="koushiki__btn prrrr" href="<?php echo home_url('/'); ?><?php echo $urlStu; ?>"
+                    target="_blank">
+                    <?php else : ?>
+                        <a class="koushiki__btn prrrr" href="<?php echo home_url('/'); ?><?php echo $url; ?>"
+                    target="_blank">
+                    <?php endif; ?>
+                        申し込みはこちら
+                    </a>
+                <?php else : ?>
                 <a class="koushiki__btn prrrr" href="<?php echo home_url('/'); ?><?php echo $url; ?>"
                     target="_blank">申し込みはこちら
                 </a>
+                <?php endif; ?>
+                
             <?php endif; ?>
 
         </div>
@@ -359,21 +459,36 @@ if($i == 1) {
             </div>
             <?php endif; ?>
             <?php else : ?>
-            <?php //if($post->ID == 13): ?>
-                <!-- <a class="syousai__btn h56" href="<?php the_permalink(); ?>">詳細を見る</a>
-                <div class="koushiki__wrap">
-                    <a class="prrrr" style="margin:0 auto" href="<?php echo home_url('/'); ?><?php echo $url; ?>"
-                    target="_blank"> <img src="<?php bloginfo('template_url'); ?>/images/number/btn-1.jpg" alt="" width="100%"></a>
-                </div>-->
-            <?php //else : ?> 
+
+                
                 <a class="syousai__btn" href="<?php the_permalink(); ?>">詳細を見る</a>
                 <div class="koushiki__wrap">
                     <p class="koushiki__text">＼ 最短5分で申込完了 ／</p>
-                    <a class="koushiki__btn prrrr" style="margin:0 auto" href="<?php echo home_url('/'); ?><?php echo $url; ?>"
-                    target="_blank">公式サイトでお得に申し込む</a>
+
+                    <?php if(is_page('rankingetc')) : ?>
+                        <?php if(!empty($urlEtc)) : ?>
+                            <a class="koushiki__btn prrrr" style="margin:0 auto" href="<?php echo home_url('/'); ?><?php echo $urlEtc; ?>" target="_blank">
+                        <?php else : ?>
+                            <a class="koushiki__btn prrrr" style="margin:0 auto" href="<?php echo home_url('/'); ?><?php echo $url; ?>" target="_blank">
+                        <?php endif; ?>
+                            
+                    <?php elseif(is_page('rankingspeed')) : ?>
+                        <?php if(!empty($urlSpeed)) : ?>
+                            <a class="koushiki__btn prrrr" style="margin:0 auto" href="<?php echo home_url('/'); ?><?php echo $urlSpeed; ?>" target="_blank">
+                        <?php else : ?>
+                            <a class="koushiki__btn prrrr" style="margin:0 auto" href="<?php echo home_url('/'); ?><?php echo $url; ?>" target="_blank">
+                        <?php endif; ?>
+                    <?php elseif(is_page('rankingstudent')) : ?>    
+                        <?php if(!empty($urlStu)) : ?>
+                            <a class="koushiki__btn prrrr" style="margin:0 auto" href="<?php echo home_url('/'); ?><?php echo $urlStu; ?>" target="_blank">
+                        <?php else : ?>
+                            <a class="koushiki__btn prrrr" style="margin:0 auto" href="<?php echo home_url('/'); ?><?php echo $url; ?>" target="_blank">
+                        <?php endif; ?>
+                    <?php else : ?>
+                    <a class="koushiki__btn prrrr" style="margin:0 auto" href="<?php echo home_url('/'); ?><?php echo $url; ?>" target="_blank">
+                    <?php endif; ?>
+                    公式サイトでお得に申し込む</a>
                 </div>
-            
-            <?php //endif; ?>
             <?php endif; ?>
         </div>
 

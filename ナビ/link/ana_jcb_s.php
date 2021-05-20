@@ -1,17 +1,22 @@
 ﻿<?php include 'Tags/head-tag.php'; ?>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ANA JCBカード（学生用） 公式サイト</title>
-<?php include 'Tags/gtm-tag.php'; ?>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANA JCBカード（学生用） 公式サイト</title>
+
+    <script>
+    let link = 'https://re-roots.net/link.php?i=pgpzezphl3i8&m=mglyziibitpf';
+    let delay = 1000;     // 遷移までの待ち時間（ミリ秒）
+    setTimeout(function () {
+        location.href = link+'&pbid='+localStorage.getItem('reroots_clid')
+    }, delay);
+    </script>
+
+    <?php include 'Tags/gtm.php'; ?>
 
 </head>
 
 <body>
-
-
-    <meta http-equiv="refresh"
-        content="1; URL=https://tracker.performancefirst.jp/ad/p/r?_cid=gE1AyxwTxtzVuIg7As2kg%2B64yjrmT%2FdnZ3iZqmD1IoU%3D">
 
 
 </body>

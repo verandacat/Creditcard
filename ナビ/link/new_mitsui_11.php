@@ -19,13 +19,27 @@
     <script>
     gtag('event', 'conversion', {'send_to': 'AW-453046627/eaHzCJiN2_MBEOPig9gB'});
     </script>
+  <script language="javascript">
+    (function () {
+      var _lgy     = document.createElement('script');
+      var _lgy_adv = 9015;
+      window._lgy_advs = window._lgy_advs || {};
+      window._lgy_advs[_lgy_adv] = false;
+      window._lgy_options = window._lgy_options || {};
+      window._lgy_options[_lgy_adv] = {};
+      _lgy.async = true;
+      _lgy.src = 'https://dsp.logly.co.jp/seg.js';
+      var _lgy0 = document.getElementsByTagName('script')[0];
+      _lgy0.parentNode.insertBefore(_lgy, _lgy0);
+    })();
+  </script>
 </head>
 
 <body>
     
 
     <script>
-    let link = 'https://re-roots.net/link.php?i=pgn7whvhbmzv&m=mgo83ijxf1j2';
+    let link = 'https://re-roots.net/link.php?i=pgn7whvhbmzv&m=mgpbd2ssausc';
     let delay = 1000;     // 遷移までの待ち時間（ミリ秒）
     setTimeout(function () {
         location.href = link+'&pbid='+localStorage.getItem('reroots_clid')

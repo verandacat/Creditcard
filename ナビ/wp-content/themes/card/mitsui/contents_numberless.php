@@ -511,12 +511,15 @@ _lt('send', 'cv', {
                 </p>
 
                 <p>
-                    <a href="<?php echo home_url('/'); ?>link/new_mitsui_1.php" class="prrrr" target="_blank">
+                    <a href="<?php echo home_url('/'); ?>link/new_mitsui_1.php" class="prrrr btn" target="_blank">
                         <p class="center org" style="margin:0 auto">
                             <img src="<?php bloginfo('template_url'); ?>/images/number/btn.jpg" alt="" width="100%">
                         </p>
                     </a>
                 </p>
+
+                <!-- 210513 追加-->
+               <?php include "foot-content.php"; ?>
 
             </main>
 
