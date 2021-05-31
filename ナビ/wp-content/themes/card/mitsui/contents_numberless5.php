@@ -267,53 +267,6 @@ _lt('send', 'cv', {
                 </p>
 
 
-                <p>ちなみに<br><span class="bold">コンビニ各三社で発行の<br><span class="red">本家クレカよりも還元率が高い</span></span>んです！
-                </p>
-
-                <table class="kon-table">
-                    <tr>
-                        <th style="background-color: #fff;"></th>
-                        <th style="background-color: antiquewhite;">
-                        三井住友カード（NL）
-                        </th>
-                        <th style="background-color: #fff;">本家カード</th>
-                    </tr>
-                    <tr>
-                        <th>セブンイレブン</th>
-                        <td style="background-color: antiquewhite;">
-                            <span class="f24 red bold" style="margin:0 auto;
-                            display: block;">5.0%</span>
-                        </td>
-                        <td>セブンカード・プラス<span class="bold blue">1.0%</span></td>
-                    </tr>
-
-                    <tr>
-                        <th>ファミリーマート</th>
-                        <td style="background-color: antiquewhite;">
-                            <span class="f24 red bold" style="margin:0 auto;
-                            display: block;">5.0%</span>
-                        </td>
-                        <td>
-                        ファミマTカード<span class="bold blue">1.0%</span>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <th>ローソン</th>
-                        <td style="background-color: antiquewhite;">
-                            <span class="f24 red bold" style="margin:0 auto;
-                            display: block;">5.0%</span>
-                        </td>
-                        <td>
-                            ローソンPontaプラス<span class="bold blue">4.0%</span>
-                        </td>
-                    </tr>
-                    
-                </table>
-
-                <p class="p20">
-                    <img src="<?php bloginfo('template_url'); ?>/images/number/008.jpg" alt="">
-                </p>
 
                 <p class="right bold">
                     <a href="<?php echo home_url('/'); ?>link/new_mitsui_5.php" class="prrrr blue"
@@ -396,7 +349,7 @@ _lt('send', 'cv', {
                     <tr>
                         <th>キャンペーン</th>
                         <td style="background-color: antiquewhite;"><span class="red bold f16">最大5,000円相当プレゼントキャンペーン</span></td>
-                        <td>7,000円還元</td>
+                        <td>通常5,000ポイント</td>
                         <td>なし</td>
                     </tr>
                     <tr>

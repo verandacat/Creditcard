@@ -403,7 +403,7 @@ _lt('send', 'cv', {
                     <tr>
                         <th>キャンペーン</th>
                         <td style="background-color: antiquewhite;"><span class="red bold f16">最大11,000円相当プレゼントキャンペーン</span></td>
-                        <td>7,000円還元</td>
+                        <td>通常5,000ポイント</td>
                         <td>なし</td>
                     </tr>
                     <tr>

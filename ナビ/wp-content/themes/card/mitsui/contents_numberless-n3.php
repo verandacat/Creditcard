@@ -1,5 +1,5 @@
 <?php /*
-Template Name: 三井住友ナンバーレス
+Template Name: 三井住友ナンバーレス New3
 */
 ?>
 
@@ -23,7 +23,7 @@ Template Name: 三井住友ナンバーレス
     }
     gtag('js', new Date());
 
-    gtag('config', 'AW-453046627');
+    gtag('config', 'AW-453046627'); 
     </script>
 <!-- Facebook Pixel Code -->
 <script>
@@ -439,7 +439,7 @@ _lt('send', 'cv', {
                 </p>
 
                 <p>
-                    <img src="<?php bloginfo('template_url'); ?>/images/number/016.jpg" alt="">
+                    <img src="<?php bloginfo('template_url'); ?>/images/number/016-n.jpg" alt="">
                 </p>
 
                 <p>
@@ -479,7 +479,7 @@ _lt('send', 'cv', {
                 </p>
 
                 <p>
-                    <img src="<?php bloginfo('template_url'); ?>/images/number/020.png" alt="" width="100%">
+                    <img src="<?php bloginfo('template_url'); ?>/images/number/020-n.jpg" alt="" width="100%">
                     <small style="text-align: right; display: block; margin-top: 10px;">(過去の支払いで何十万円分も損してるw)
                     </small>
                 </p>

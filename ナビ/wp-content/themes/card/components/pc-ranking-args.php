@@ -52,7 +52,7 @@ $review5 = get_field('review5');
 $reviews = array($review1, $review2, $review3, $review4, $review5);
 ?>
 
-<?php if(is_page('rankingall')) : ?>
+<?php if(is_page('rankingall') || is_page('mitsui-numle-l')) : ?>
 <?php $ex = get_field('rankall-number'); ?>
 <?php elseif(is_page('rankingprice')) : ?>
 <?php $ex = get_field('rankprice-number'); ?>

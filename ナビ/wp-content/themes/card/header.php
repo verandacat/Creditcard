@@ -146,6 +146,12 @@
         })();
     </script>
 
+    <style>
+    .list li {
+        list-style-type: disc!important;
+    }
+    </style>
+
     <?php endif; ?>
 </head>
 

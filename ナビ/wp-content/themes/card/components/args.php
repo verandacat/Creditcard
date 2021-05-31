@@ -1,6 +1,6 @@
 <?php
 
-if(is_page('rankingall')) {
+if(is_page('rankingall') || is_page('mitsui-numle-l')) {
     $args = array(
         'posts_per_page' => '10',
         'category_name' => 'rankall',
